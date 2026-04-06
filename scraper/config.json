@@ -1,0 +1,15 @@
+{
+  "url": "https://staff.am/en/jobs",
+  "fields": [
+    "title",
+    "company",
+    "location",
+    "job_type",
+    "employment_term",
+    "category",
+    "deadline",
+    "url",
+    "description"
+  ],
+  "keywords": ""
+}

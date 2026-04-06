@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Staff.am Job Archive</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, sans-serif; background: #f0f2f5; color: #222; }
+
+header {
+  background: #1a1a2e; color: #fff; padding: 12px 24px;
+  display: flex; align-items: center; gap: 24px;
+}
+header h1 { font-size: 1.15rem; }
+header a { color: #aad4f5; text-decoration: none; font-size: .9rem; }
+header a:hover { text-decoration: underline; }
+.header-meta { margin-left: auto; font-size: .8rem; color: #aaa; }
+
+.content { padding: 20px 24px; max-width: 1600px; margin: 0 auto; }
+
+/* banners */
+.banner {
+  padding: 10px 16px; border-radius: 6px; margin-bottom: 14px;
+  display: flex; align-items: center; gap: 10px; font-size: .875rem;
+}
+.banner.info  { background: #d4edda; border: 1px solid #c3e6cb; color: #155724; }
+.banner.warn  { background: #fff3cd; border: 1px solid #ffc107; color: #856404; }
+.banner.error { background: #f8d7da; border: 1px solid #f5c6cb; color: #721c24; }
+.spinner-lg {
+  display: flex; align-items: center; justify-content: center;
+  gap: 14px; padding: 60px; color: #555; font-size: .95rem;
+}
+.spin {
+  width: 28px; height: 28px; border: 3px solid #ccc;
+  border-top-color: #1a1a2e; border-radius: 50%;
+  animation: spin .8s linear infinite; flex-shrink: 0;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* toolbar */
+.toolbar {
+  display: flex; align-items: center; gap: 10px;
+  flex-wrap: wrap; margin-bottom: 14px;
+}
+button, .btn {
+  background: #1a1a2e; color: #fff; border: none; padding: 8px 16px;
+  border-radius: 5px; cursor: pointer; font-size: .875rem; white-space: nowrap;
+}
+button:hover { background: #2e2e5e; }
+.btn-outline {
+  background: transparent; color: #1a1a2e;
+  border: 1.5px solid #1a1a2e; padding: 7px 15px;
+}
+.btn-outline:hover { background: #1a1a2e; color: #fff; }
+
+/* search */
+.search-input {
+  padding: 7px 12px; border: 1.5px solid #ccc; border-radius: 5px;
+  font-size: .875rem; width: 220px;
+}
+
+/* column picker */
+.col-picker-wrap { position: relative; }
+.col-picker-panel {
+  display: none; position: absolute; top: calc(100% + 6px); left: 0;
+  background: #fff; border: 1px solid #ccc; border-radius: 6px;
+  padding: 12px 16px; z-index: 100; box-shadow: 0 4px 12px rgba(0,0,0,.12);
+  min-width: 220px;
+}
+.col-picker-panel.open { display: block; }
+.col-picker-panel label {
+  display: flex; align-items: center; gap: 8px;
+  font-size: .875rem; padding: 4px 0; cursor: pointer;
+}
+
+/* date filter */
+.filter-group { display: flex; align-items: center; gap: 8px; font-size: .875rem; }
+.filter-group input[type=date] {
+  padding: 7px 10px; border: 1.5px solid #ccc; border-radius: 5px; font-size: .875rem;
+}
+
+/* stats */
+.stats { font-size: .85rem; color: #555; margin-bottom: 10px; }
+
+/* table */
+.table-wrap { overflow-x: auto; }
+table {
+  width: 100%; border-collapse: collapse; background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,.1); border-radius: 6px; overflow: hidden;
+}
+thead th {
+  background: #1a1a2e; color: #fff; padding: 10px 12px;
+  text-align: left; font-size: .8rem; text-transform: uppercase;
+  letter-spacing: .05em; white-space: nowrap; user-select: none;
+}
+thead th.sortable { cursor: pointer; }
+thead th.sortable:hover { background: #2e2e5e; }
+.sort-ind { margin-left: 5px; opacity: .6; font-size: .75rem; }
+
+tbody tr.job-row {
+  cursor: pointer; transition: background .15s;
+  border-bottom: 1px solid #eee;
+}
+tbody tr.job-row:hover { background: #f0f4ff !important; }
+tbody td {
+  padding: 8px 12px; font-size: .85rem; vertical-align: middle;
+  max-width: 260px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+tbody td a { color: #0066cc; }
+
+/* expandable detail */
+tr.detail-row td {
+  padding: 0; background: #f8f9ff;
+  border-bottom: 2px solid #c5cae9;
+  max-width: none; overflow: visible; white-space: normal;
+}
+.desc-inner {
+  padding: 16px 20px; font-size: .85rem; line-height: 1.6;
+  white-space: pre-wrap; word-break: break-word; max-width: 100%;
+}
+tr.job-row.expanded { background: #eef0ff !important; }
+
+/* empty */
+.empty { text-align: center; padding: 56px; color: #888; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Staff.am Job Archive</h1>
+  <a href="https://github.com/RobertArustamyan/StaffamJobArchive" target="_blank">GitHub</a>
+  <span class="header-meta" id="lastUpdated"></span>
+</header>
+
+<div class="content">
+  <div id="loadingBox" class="spinner-lg">
+    <div class="spin"></div> Loading jobs…
+  </div>
+  <div id="errorBox" class="banner error" style="display:none"></div>
+  <div id="mainUI" style="display:none">
+
+    <div class="toolbar">
+      <input class="search-input" type="search" id="searchInput"
+             placeholder="Search jobs…" oninput="applyFilters()">
+
+      <button id="colorBtn" class="btn-outline" onclick="colorByDeadline()">Color by Deadline</button>
+
+      <div class="col-picker-wrap" id="colWrap">
+        <button class="btn-outline" onclick="toggleColPanel()">Columns ▾</button>
+        <div class="col-picker-panel" id="colPanel"></div>
+      </div>
+
+      <div class="filter-group">
+        <label for="dateFilter" style="white-space:nowrap;font-weight:500">Scraped date:</label>
+        <input type="date" id="dateFilter" onchange="applyFilters()">
+        <button onclick="clearDateFilter()" style="background:#888">Clear</button>
+      </div>
+    </div>
+
+    <p class="stats" id="statsBar"></p>
+
+    <div class="table-wrap">
+      <table id="jobTable">
+        <thead><tr id="tableHead"></tr></thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── config ────────────────────────────────────────────────────────────────────
+const DATA_URL =
+  'https://raw.githubusercontent.com/RobertArustamyan/StaffamJobArchive/master/scraper/data/jobs.json';
+
+const DISPLAY_FIELDS = [
+  'title', 'company', 'location', 'job_type',
+  'employment_term', 'category', 'deadline', 'url', 'scraped_date',
+];
+const SORTABLE = new Set(['deadline', 'scraped_date', 'title', 'company', 'location']);
+
+// ── state ─────────────────────────────────────────────────────────────────────
+let allJobs = [];
+let sortState = {};
+let colorActive = false;
+
+// ── boot ──────────────────────────────────────────────────────────────────────
+async function boot() {
+  try {
+    const res = await fetch(DATA_URL);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    allJobs = await res.json();
+    allJobs.sort((a, b) =>
+      (b.scraped_at || '').localeCompare(a.scraped_at || ''));
+    init();
+  } catch (e) {
+    document.getElementById('loadingBox').style.display = 'none';
+    const box = document.getElementById('errorBox');
+    box.style.display = 'flex';
+    box.textContent = `Failed to load jobs: ${e.message}`;
+  }
+}
+
+function init() {
+  document.getElementById('loadingBox').style.display = 'none';
+  document.getElementById('mainUI').style.display = '';
+
+  // last updated
+  const latest = allJobs[0]?.scraped_at;
+  if (latest) {
+    document.getElementById('lastUpdated').textContent =
+      'Last updated: ' + latest.slice(0, 10);
+  }
+
+  buildColPicker();
+  buildTableHead();
+  renderRows(allJobs);
+  updateStats(allJobs.length, allJobs.length);
+}
+
+// ── column picker ─────────────────────────────────────────────────────────────
+function buildColPicker() {
+  const panel = document.getElementById('colPanel');
+  panel.innerHTML = DISPLAY_FIELDS.map(f => `
+    <label>
+      <input type="checkbox" class="col-toggle" data-field="${f}"
+             checked onchange="updateColumns()">
+      ${fieldLabel(f)}
+    </label>`).join('');
+}
+
+function toggleColPanel() {
+  document.getElementById('colPanel').classList.toggle('open');
+}
+document.addEventListener('click', e => {
+  const wrap = document.getElementById('colWrap');
+  if (wrap && !wrap.contains(e.target))
+    document.getElementById('colPanel').classList.remove('open');
+});
+
+function updateColumns() {
+  DISPLAY_FIELDS.forEach(f => {
+    const cb = document.querySelector(`.col-toggle[data-field="${f}"]`);
+    const show = cb ? cb.checked : true;
+    document.querySelectorAll(`[data-field="${f}"]`).forEach(el => {
+      el.style.display = show ? '' : 'none';
+    });
+    const th = document.querySelector(`th[data-field="${f}"]`);
+    if (th) th.style.display = show ? '' : 'none';
+    updateDetailColspan();
+  });
+}
+
+function updateDetailColspan() {
+  const total = document.querySelectorAll(
+    'thead th:not([style*="display: none"]):not([style*="display:none"])').length;
+  document.querySelectorAll('tr.detail-row td').forEach(
+    td => td.colSpan = total || 1);
+}
+
+// ── table head ────────────────────────────────────────────────────────────────
+function fieldLabel(f) {
+  return f.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+}
+
+function buildTableHead() {
+  const tr = document.getElementById('tableHead');
+  tr.innerHTML = DISPLAY_FIELDS.map(f => {
+    if (SORTABLE.has(f)) {
+      return `<th class="sortable" data-field="${f}" onclick="sortTable('${f}')">
+        ${fieldLabel(f)}<span class="sort-ind"> ↕</span></th>`;
+    }
+    return `<th data-field="${f}">${fieldLabel(f)}</th>`;
+  }).join('');
+}
+
+// ── render rows ───────────────────────────────────────────────────────────────
+function esc(s) {
+  return String(s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function renderRows(jobs) {
+  const tbody = document.getElementById('tableBody');
+  if (!jobs.length) {
+    tbody.innerHTML =
+      `<tr><td colspan="${DISPLAY_FIELDS.length}" class="empty">No jobs match your filters.</td></tr>`;
+    return;
+  }
+
+  tbody.innerHTML = jobs.map(job => {
+    const scraped_date = (job.scraped_at || '').slice(0, 10);
+    const cells = DISPLAY_FIELDS.map(f => {
+      const val = f === 'scraped_date' ? scraped_date : job[f];
+      if (val == null || val === '') return `<td data-field="${f}">—</td>`;
+      if (f === 'url') {
+        return `<td data-field="${f}">
+          <a href="${esc(val)}" target="_blank" onclick="event.stopPropagation()">link</a></td>`;
+      }
+      return `<td data-field="${f}">${esc(String(val))}</td>`;
+    }).join('');
+
+    const desc = esc(job.description || 'No description available.');
+    return `
+      <tr class="job-row" onclick="toggleDetail(this,event)">${cells}</tr>
+      <tr class="detail-row" style="display:none">
+        <td colspan="${DISPLAY_FIELDS.length}">
+          <div class="desc-inner">${desc}</div>
+        </td>
+      </tr>`;
+  }).join('');
+
+  updateColumns();
+  updateDetailColspan();
+}
+
+// ── expand / collapse ─────────────────────────────────────────────────────────
+function toggleDetail(row, e) {
+  if (e && e.target.tagName === 'A') return;
+  const detail = row.nextElementSibling;
+  if (!detail || !detail.classList.contains('detail-row')) return;
+  const open = detail.style.display !== 'none';
+  detail.style.display = open ? 'none' : '';
+  row.classList.toggle('expanded', !open);
+}
+
+// ── filters ───────────────────────────────────────────────────────────────────
+function applyFilters() {
+  const kw  = (document.getElementById('searchInput').value || '').toLowerCase();
+  const day = document.getElementById('dateFilter').value;
+
+  const filtered = allJobs.filter(job => {
+    const scraped_date = (job.scraped_at || '').slice(0, 10);
+    if (day && scraped_date !== day) return false;
+    if (kw) {
+      const text = DISPLAY_FIELDS
+        .map(f => f === 'scraped_date' ? scraped_date : (job[f] || ''))
+        .join(' ').toLowerCase();
+      if (!text.includes(kw)) return false;
+    }
+    return true;
+  });
+
+  renderRows(filtered);
+  updateStats(filtered.length, allJobs.length);
+  if (colorActive) { colorActive = false; colorByDeadline(); }
+}
+
+function clearDateFilter() {
+  document.getElementById('dateFilter').value = '';
+  applyFilters();
+}
+
+function updateStats(visible, total) {
+  const bar = document.getElementById('statsBar');
+  bar.textContent = visible === total
+    ? `Showing all ${total} jobs`
+    : `Showing ${visible} of ${total} jobs`;
+}
+
+// ── sort ──────────────────────────────────────────────────────────────────────
+function sortTable(field) {
+  const tbody = document.getElementById('tableBody');
+  const pairs = [];
+  let cur = tbody.firstElementChild;
+  while (cur) {
+    if (cur.classList.contains('job-row')) {
+      const det = cur.nextElementSibling;
+      pairs.push({
+        row: cur,
+        detail: det?.classList.contains('detail-row') ? det : null,
+      });
+      cur = det?.classList.contains('detail-row') ? det.nextElementSibling : cur.nextElementSibling;
+    } else { cur = cur.nextElementSibling; }
+  }
+
+  const dir = sortState[field] === 'asc' ? -1 : 1;
+  sortState[field] = dir === 1 ? 'asc' : 'desc';
+
+  pairs.sort((a, b) => {
+    const av = a.row.querySelector(`[data-field="${field}"]`)?.textContent.trim() || '';
+    const bv = b.row.querySelector(`[data-field="${field}"]`)?.textContent.trim() || '';
+    if (field === 'deadline') {
+      const ad = av === '—' ? new Date(0) : new Date(av);
+      const bd = bv === '—' ? new Date(0) : new Date(bv);
+      return dir * (ad - bd);
+    }
+    return dir * av.localeCompare(bv, undefined, { numeric: true });
+  });
+
+  pairs.forEach(p => {
+    tbody.appendChild(p.row);
+    if (p.detail) tbody.appendChild(p.detail);
+  });
+
+  document.querySelectorAll('th.sortable .sort-ind').forEach(el => el.textContent = ' ↕');
+  const th = document.querySelector(`th[data-field="${field}"]`);
+  if (th) th.querySelector('.sort-ind').textContent =
+    sortState[field] === 'asc' ? ' ↑' : ' ↓';
+}
+
+// ── color by deadline ─────────────────────────────────────────────────────────
+function colorByDeadline() {
+  colorActive = !colorActive;
+  document.querySelectorAll('tr.job-row').forEach(row => {
+    if (!colorActive) { row.style.background = ''; return; }
+    const cell = row.querySelector('[data-field="deadline"]');
+    const text = cell ? cell.textContent.trim() : '';
+    if (!text || text === '—') return;
+    const d = new Date(text);
+    if (isNaN(d.getTime())) return;
+    const today = new Date(); today.setHours(0, 0, 0, 0);
+    d.setHours(0, 0, 0, 0);
+    if      (d < today)                      row.style.background = '#ffe0e0';
+    else if (d.getTime() === today.getTime()) row.style.background = '#fff3cd';
+    else                                      row.style.background = '#e8f5e9';
+  });
+  document.getElementById('colorBtn').textContent =
+    colorActive ? 'Remove Colors' : 'Color by Deadline';
+}
+
+// ── start ─────────────────────────────────────────────────────────────────────
+boot();
+</script>
+</body>
+</html>
