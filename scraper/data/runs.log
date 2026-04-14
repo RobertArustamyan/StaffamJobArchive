@@ -2958,3 +2958,72 @@ playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at 
 2026-04-13T05:51:01.409795+00:00 |   [6/7] saved: https://staff.am/en/jobs/construction/construction-managerforeman-2
 2026-04-13T05:51:03.327153+00:00 |   [7/7] saved: https://staff.am/en/jobs/retail-business/sales-assistant-in-store-bibliotech-homplex-mall-2
 2026-04-13T05:51:03.437273+00:00 | RUN END  new_jobs=7  total_jobs=1572
+2026-04-14T14:41:31.950181+00:00 | RUN START  url=https://staff.am/en/jobs  fields=['title', 'company', 'location', 'job_type', 'employment_term', 'category', 'deadline', 'url', 'description']  keywords=[]  workers=1
+2026-04-14T14:41:33.287981+00:00 | Navigating to listing page…
+2026-04-14T14:41:42.111274+00:00 |   listing page 1: extracting cards…
+2026-04-14T14:41:42.136758+00:00 |   page 1: 50 new cards (running total 50)
+2026-04-14T14:41:43.483351+00:00 |   listing page 2: extracting cards…
+2026-04-14T14:41:43.493099+00:00 |   page 2: 0 new cards (running total 50)
+2026-04-14T14:41:43.560787+00:00 | Total cards across all pages: 50
+2026-04-14T14:41:43.560881+00:00 | New jobs to process: 50
+2026-04-14T14:41:47.497368+00:00 |   [1/50] saved: https://staff.am/en/jobs/software-development/senior-backend-developer-net
+2026-04-14T14:41:49.140335+00:00 |   [2/50] saved: https://staff.am/en/jobs/hr/hr-specialist-616
+2026-04-14T14:41:50.547139+00:00 |   [3/50] saved: https://staff.am/en/jobs/business/general-manager-96
+2026-04-14T14:41:51.526664+00:00 |   [4/50] saved: https://staff.am/en/jobs/sales-management/ansharzh-gowyki-gortsakal-67
+2026-04-14T14:41:52.777019+00:00 |   [5/50] saved: https://staff.am/en/jobs/procurement/head-of-logistics-and-international-operations
+2026-04-14T14:41:52.839033+00:00 |   (streamed 5 new jobs to disk)
+2026-04-14T14:41:53.922305+00:00 |   [6/50] saved: https://staff.am/en/jobs/business/directors-assistant-23
+2026-04-14T14:41:54.948399+00:00 |   [7/50] saved: https://staff.am/en/jobs/construction/inzhiner-shinarar-2
+2026-04-14T14:41:55.916802+00:00 |   [8/50] saved: https://staff.am/en/jobs/marketing/social-media-manager-215
+2026-04-14T14:41:56.875620+00:00 |   [9/50] saved: https://staff.am/en/jobs/marketing/link-building-specialist-87
+2026-04-14T14:41:58.109644+00:00 |   [10/50] saved: https://staff.am/en/jobs/sales-management/korporativ-vacharhki-masnaget-91
+2026-04-14T14:41:58.204471+00:00 |   (streamed 10 new jobs to disk)
+2026-04-14T14:41:59.692103+00:00 |   [11/50] saved: https://staff.am/en/jobs/education-training/owsowtsanogh-marzich-dilijan-kes-drowyk-7
+2026-04-14T14:42:00.944051+00:00 |   [12/50] saved: https://staff.am/en/jobs/business/civil-protection-and-emergency-management-specialistcorporate-services-directorate
+2026-04-14T14:42:02.112144+00:00 |   [13/50] saved: https://staff.am/en/jobs/business/business-continuity-management-specialistcorporate-services-directoratebusiness-continuity-management-team-4
+2026-04-14T14:42:03.339808+00:00 |   [14/50] saved: https://staff.am/en/jobs/education-training/english-specialist-30
+2026-04-14T14:42:04.278444+00:00 |   [15/50] saved: https://staff.am/en/jobs/art-design/architect-56
+2026-04-14T14:42:04.378735+00:00 |   (streamed 15 new jobs to disk)
+2026-04-14T14:42:05.450654+00:00 |   [16/50] saved: https://staff.am/en/jobs/gaming-betting/affiliate-manager-one-foreign-language-required-en-fr-es-ru
+2026-04-14T14:42:06.330373+00:00 |   [17/50] saved: https://staff.am/en/jobs/bookkeeping/accountant-2757
+2026-04-14T14:42:07.371152+00:00 |   [18/50] saved: https://staff.am/en/jobs/art-design/designer-interior-exterior
+2026-04-14T14:42:08.680348+00:00 |   [19/50] saved: https://staff.am/en/jobs/finance-management/head-of-finance-and-operations-7
+2026-04-14T14:42:09.815887+00:00 |   [20/50] saved: https://staff.am/en/jobs/office-work/administratori-ognakan-grasenyakayin-gorts
+2026-04-14T14:42:09.935848+00:00 |   (streamed 20 new jobs to disk)
+2026-04-14T14:42:11.351560+00:00 |   [21/50] saved: https://staff.am/en/jobs/software-development/fullstack-net-developer-22
+2026-04-14T14:42:12.767953+00:00 |   [22/50] saved: https://staff.am/en/jobs/banking/plaf-kankhargelman-ashkhatakits
+2026-04-14T14:42:13.967668+00:00 |   [23/50] saved: https://staff.am/en/jobs/software-development/delphi-developer-1
+2026-04-14T14:42:15.204652+00:00 |   [24/50] saved: https://staff.am/en/jobs/office-work/finance-and-accounting-department-administrative-assistant
+2026-04-14T14:42:16.175337+00:00 |   [25/50] saved: https://staff.am/en/jobs/art-design/architect-55
+2026-04-14T14:42:16.358789+00:00 |   (streamed 25 new jobs to disk)
+2026-04-14T14:42:17.387499+00:00 |   [26/50] saved: https://staff.am/en/jobs/bookkeeping/hashvetar-999
+2026-04-14T14:42:18.274118+00:00 |   [27/50] saved: https://staff.am/en/jobs/system-admin/network-engineersystem-administrator-6
+2026-04-14T14:42:19.843160+00:00 |   [28/50] saved: https://staff.am/en/jobs/system-admin/cloud-administrator-cloud-engineer-azure-1
+2026-04-14T14:42:20.963047+00:00 |   [29/50] saved: https://staff.am/en/jobs/other-it/jsoc-cybersecurity-specialist-digital-threat-hunting
+2026-04-14T14:42:22.232406+00:00 |   [30/50] saved: https://staff.am/en/jobs/system-admin/security-engineer-incident-response-infrastructure-security-6
+2026-04-14T14:42:22.330143+00:00 |   (streamed 30 new jobs to disk)
+2026-04-14T14:42:23.216740+00:00 |   [31/50] saved: https://staff.am/en/jobs/tourism/outgoing-tour-manager-76
+2026-04-14T14:42:24.460580+00:00 |   [32/50] saved: https://staff.am/en/jobs/banking/arhewtri-finansavorman-bazhni-masnaget
+2026-04-14T14:42:25.817557+00:00 |   [33/50] saved: https://staff.am/en/jobs/system-admin/infrastructure-system-engineer-1
+2026-04-14T14:42:27.199594+00:00 |   [34/50] saved: https://staff.am/en/jobs/other-it/junior-cybersecurity-specialist-incident-response-4
+2026-04-14T14:42:28.156179+00:00 |   [35/50] saved: https://staff.am/en/jobs/hr/deputy-head-of-administrative-department
+2026-04-14T14:42:28.241303+00:00 |   (streamed 35 new jobs to disk)
+2026-04-14T14:42:29.491029+00:00 |   [36/50] saved: https://staff.am/en/jobs/tourism/hotel-engineering-maintenance-manager
+2026-04-14T14:42:30.874393+00:00 |   [37/50] saved: https://staff.am/en/jobs/mechanical-engineering/engineer-energy
+2026-04-14T14:42:32.370843+00:00 |   [38/50] saved: https://staff.am/en/jobs/sales-management/sales-manager-2098
+2026-04-14T14:42:33.796796+00:00 |   [39/50] saved: https://staff.am/en/jobs/project-management/senior-services-sales-enablementtechnical-marketing-program-manager
+2026-04-14T14:42:35.426343+00:00 |   [40/50] saved: https://staff.am/en/jobs/software-development/react-native-developer-317
+2026-04-14T14:42:35.552393+00:00 |   (streamed 40 new jobs to disk)
+2026-04-14T14:42:36.676871+00:00 |   [41/50] saved: https://staff.am/en/jobs/sales-management/tekhnikakan-ajaktsman-masnaget-255
+2026-04-14T14:42:37.740585+00:00 |   [42/50] saved: https://staff.am/en/jobs/banking/hachakhordneri-spasarkman-masnaget-kapan-masnachyowgh-4
+2026-04-14T14:42:39.117174+00:00 |   [43/50] saved: https://staff.am/en/jobs/hr/hr-generalist-262
+2026-04-14T14:42:40.064839+00:00 |   [44/50] saved: https://staff.am/en/jobs/banking/vacharhkneri-ajaktsman-bazhni-petmanratsakh-biznesi-segmentneri-ew-prodowktneri-zargatsman-varchowtyown-6
+2026-04-14T14:42:41.027149+00:00 |   [45/50] saved: https://staff.am/en/jobs/legal/late-recovery-specialist-17
+2026-04-14T14:42:41.100033+00:00 |   (streamed 45 new jobs to disk)
+2026-04-14T14:42:42.624606+00:00 |   [46/50] saved: https://staff.am/en/jobs/banking/vacharhki-timi-masnaget-109
+2026-04-14T14:42:43.707800+00:00 |   [47/50] saved: https://staff.am/en/jobs/banking/ashtarak-branch-credit-officerbusiness-development-manager-19
+2026-04-14T14:42:45.217085+00:00 |   [48/50] saved: https://staff.am/en/jobs/banking/vanadzor-branch-credit-officerbusiness-development-manager-33
+2026-04-14T14:42:46.314874+00:00 |   [49/50] saved: https://staff.am/en/jobs/banking/martuni-branch-credit-officerbusiness-development-manager-9
+2026-04-14T14:42:47.309767+00:00 |   [50/50] saved: https://staff.am/en/jobs/quality-assurance/qa-engineer-1699
+2026-04-14T14:42:47.393049+00:00 |   (streamed 50 new jobs to disk)
+2026-04-14T14:42:47.492023+00:00 | RUN END  new_jobs=50  total_jobs=1622
