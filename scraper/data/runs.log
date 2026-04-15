@@ -3027,3 +3027,62 @@ playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at 
 2026-04-14T14:42:47.309767+00:00 |   [50/50] saved: https://staff.am/en/jobs/quality-assurance/qa-engineer-1699
 2026-04-14T14:42:47.393049+00:00 |   (streamed 50 new jobs to disk)
 2026-04-14T14:42:47.492023+00:00 | RUN END  new_jobs=50  total_jobs=1622
+2026-04-15T11:34:57.761483+00:00 | RUN START  url=https://staff.am/en/jobs  fields=['title', 'company', 'location', 'job_type', 'employment_term', 'category', 'deadline', 'url', 'description']  keywords=[]  workers=1
+2026-04-15T11:34:59.200667+00:00 | Navigating to listing page…
+2026-04-15T11:35:07.723665+00:00 |   listing page 1: extracting cards…
+2026-04-15T11:35:07.764085+00:00 |   page 1: 50 new cards (running total 50)
+2026-04-15T11:35:10.034597+00:00 |   listing page 2: extracting cards…
+2026-04-15T11:35:10.043680+00:00 |   page 2: 0 new cards (running total 50)
+2026-04-15T11:35:10.112232+00:00 | Total cards across all pages: 50
+2026-04-15T11:35:10.112331+00:00 | New jobs to process: 42
+2026-04-15T11:35:14.577763+00:00 |   [1/42] saved: https://staff.am/en/jobs/sales-management/arhakich-254
+2026-04-15T11:35:15.609641+00:00 |   [2/42] saved: https://staff.am/en/jobs/sales-management/outbound-team-sales-team-specialist-contact-center-46
+2026-04-15T11:35:16.527536+00:00 |   [3/42] saved: https://staff.am/en/jobs/other-it/it-business-analyst-185
+2026-04-15T11:35:17.649145+00:00 |   [4/42] saved: https://staff.am/en/jobs/software-development/net-developer-570
+2026-04-15T11:35:18.790019+00:00 |   [5/42] saved: https://staff.am/en/jobs/marketing/content-production-lead
+2026-04-15T11:35:18.862033+00:00 |   (streamed 5 new jobs to disk)
+2026-04-15T11:35:19.772711+00:00 |   [6/42] saved: https://staff.am/en/jobs/sales-management/senior-personal-manager-9
+2026-04-15T11:35:21.251672+00:00 |   [7/42] saved: https://staff.am/en/jobs/software-development/linuxunix-system-administrator-1
+2026-04-15T11:35:22.690034+00:00 |   [8/42] saved: https://staff.am/en/jobs/agriculture/makrowhihavakarar-16
+2026-04-15T11:35:24.139822+00:00 |   [9/42] saved: https://staff.am/en/jobs/finance-management/hashvetar-1001
+2026-04-15T11:35:25.437337+00:00 |   [10/42] saved: https://staff.am/en/jobs/sales-management/sales-and-service-specialist-in-yerevan-sc-113
+2026-04-15T11:35:25.547142+00:00 |   (streamed 10 new jobs to disk)
+2026-04-15T11:35:26.693796+00:00 |   [11/42] saved: https://staff.am/en/jobs/sales-management/sales-and-service-specialist-in-ejmiatsin-sc-13
+2026-04-15T11:35:28.170084+00:00 |   [12/42] saved: https://staff.am/en/jobs/bookkeeping/senior-usstaff-accountant
+2026-04-15T11:35:29.481708+00:00 |   [13/42] saved: https://staff.am/en/jobs/sales-management/sales-consultant-844
+2026-04-15T11:35:30.436781+00:00 |   [14/42] saved: https://staff.am/en/jobs/marketing/marketingi-masnaget-587
+2026-04-15T11:35:31.462026+00:00 |   [15/42] saved: https://staff.am/en/jobs/hr/human-resources-specialist-52
+2026-04-15T11:35:31.553407+00:00 |   (streamed 15 new jobs to disk)
+2026-04-15T11:35:32.466010+00:00 |   [16/42] saved: https://staff.am/en/jobs/sales-management/seller-consultant-yerevan-72
+2026-04-15T11:35:33.864800+00:00 |   [17/42] saved: https://staff.am/en/jobs/banking/informant-specialist-18
+2026-04-15T11:35:35.034228+00:00 |   [18/42] saved: https://staff.am/en/jobs/sales-management/sales-director-61
+2026-04-15T11:35:36.154953+00:00 |   [19/42] saved: https://staff.am/en/jobs/healthcare/pharmacist-115
+2026-04-15T11:35:37.822978+00:00 |   [20/42] saved: https://staff.am/en/jobs/other-it/shopify-developer-31
+2026-04-15T11:35:37.908316+00:00 |   (streamed 20 new jobs to disk)
+2026-04-15T11:35:38.802557+00:00 |   [21/42] saved: https://staff.am/en/jobs/other-it/videographer-26
+2026-04-15T11:35:40.027828+00:00 |   [22/42] saved: https://staff.am/en/jobs/software-development/bitrix24-crm-i-nerdrman-ew-ajaktsowtyan-masnaget
+2026-04-15T11:35:41.667549+00:00 |   [23/42] saved: https://staff.am/en/jobs/marketing/head-of-marketing-department-194
+2026-04-15T11:35:42.954519+00:00 |   [24/42] saved: https://staff.am/en/jobs/sales-management/sales-and-service-specialist-in-gyumri-1-sc-5
+2026-04-15T11:35:44.289552+00:00 |   [25/42] saved: https://staff.am/en/jobs/bookkeeping/glkhavor-hashvapahi-teghakal-120
+2026-04-15T11:35:44.380895+00:00 |   (streamed 25 new jobs to disk)
+2026-04-15T11:35:45.685345+00:00 |   [26/42] saved: https://staff.am/en/jobs/other-services/shenki-spasarkman-ognakan
+2026-04-15T11:35:46.921537+00:00 |   [27/42] saved: https://staff.am/en/jobs/sales-management/basic-support-agent-on-shift-165
+2026-04-15T11:35:48.103589+00:00 |   [28/42] saved: https://staff.am/en/jobs/banking/premium-client-manager-north-avenue-branch-2
+2026-04-15T11:35:49.636411+00:00 |   [29/42] saved: https://staff.am/en/jobs/banking/premium-hall-administrator-north-avenue-branch-3
+2026-04-15T11:35:51.083035+00:00 |   [30/42] saved: https://staff.am/en/jobs/banking/lizingi-vacharhki-menejer-6
+2026-04-15T11:35:51.196180+00:00 |   (streamed 30 new jobs to disk)
+2026-04-15T11:35:52.611113+00:00 |   [31/42] saved: https://staff.am/en/jobs/bookkeeping/chief-accountant-580
+2026-04-15T11:35:53.979117+00:00 |   [32/42] saved: https://staff.am/en/jobs/sales-management/van-seller-6
+2026-04-15T11:35:55.365979+00:00 |   [33/42] saved: https://staff.am/en/jobs/other-it/programming-trainer-for-kids-and-teens
+2026-04-15T11:35:56.510310+00:00 |   [34/42] saved: https://staff.am/en/jobs/banking/lizingi-vacharhki-masnaget-12
+2026-04-15T11:35:57.781552+00:00 |   [35/42] saved: https://staff.am/en/jobs/sales-management/sales-manager-2099
+2026-04-15T11:35:57.887268+00:00 |   (streamed 35 new jobs to disk)
+2026-04-15T11:35:59.128813+00:00 |   [36/42] saved: https://staff.am/en/jobs/data-science/ai-engineer-nlp-6
+2026-04-15T11:36:00.062840+00:00 |   [37/42] saved: https://staff.am/en/jobs/data-science/data-scientist-349
+2026-04-15T11:36:01.313142+00:00 |   [38/42] saved: https://staff.am/en/jobs/office-work/customer-service-representative-on-site-64
+2026-04-15T11:36:02.507964+00:00 |   [39/42] saved: https://staff.am/en/jobs/sales-management/sales-agent-133
+2026-04-15T11:36:03.426371+00:00 |   [40/42] saved: https://staff.am/en/jobs/business/operations-manager-240
+2026-04-15T11:36:03.504165+00:00 |   (streamed 40 new jobs to disk)
+2026-04-15T11:36:04.957166+00:00 |   [41/42] saved: https://staff.am/en/jobs/procurement/operations-specialist-166
+2026-04-15T11:36:05.989323+00:00 |   [42/42] saved: https://staff.am/en/jobs/tourism/lawyer-621
+2026-04-15T11:36:06.080672+00:00 | RUN END  new_jobs=42  total_jobs=1664
