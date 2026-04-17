@@ -3207,3 +3207,46 @@ playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at 
 2026-04-17T08:48:07.016114+00:00 |   [50/50] saved: https://staff.am/en/jobs/banking/letter-of-credit-and-bank-guarantee-senior-specialist-1
 2026-04-17T08:48:07.079444+00:00 |   (streamed 50 new jobs to disk)
 2026-04-17T08:48:07.144992+00:00 | RUN END  new_jobs=50  total_jobs=1750
+2026-04-17T22:26:59.790825+00:00 | RUN START  url=https://staff.am/en/jobs  fields=['title', 'company', 'location', 'job_type', 'employment_term', 'category', 'deadline', 'url', 'description']  keywords=[]  workers=1
+2026-04-17T22:27:00.282091+00:00 | Navigating to listing page…
+2026-04-17T22:27:27.181997+00:00 |   listing page 1: extracting cards…
+2026-04-17T22:27:27.219021+00:00 |   page 1: 50 new cards (running total 50)
+2026-04-17T22:27:28.706685+00:00 |   listing page 2: extracting cards…
+2026-04-17T22:27:28.721789+00:00 |   page 2: 0 new cards (running total 50)
+2026-04-17T22:27:28.823248+00:00 | Total cards across all pages: 50
+2026-04-17T22:27:28.823344+00:00 | New jobs to process: 29
+2026-04-17T22:27:33.897772+00:00 |   [1/29] saved: https://staff.am/en/jobs/insurance/call-centers-specialist-14
+2026-04-17T22:27:35.346616+00:00 |   [2/29] saved: https://staff.am/en/jobs/healthcare/director-of-strategy-programs
+2026-04-17T22:27:36.719890+00:00 |   [3/29] saved: https://staff.am/en/jobs/sales-management/account-manager-604
+2026-04-17T22:27:37.653451+00:00 |   [4/29] saved: https://staff.am/en/jobs/software-development/senior-java-engineer-127
+2026-04-17T22:27:38.832408+00:00 |   [5/29] saved: https://staff.am/en/jobs/analytics/junior-data-analyst-31
+2026-04-17T22:27:38.913799+00:00 |   (streamed 5 new jobs to disk)
+2026-04-17T22:27:39.832075+00:00 |   [6/29] saved: https://staff.am/en/jobs/marketing/head-of-marketing-200
+2026-04-17T22:27:40.992014+00:00 |   [7/29] saved: https://staff.am/en/jobs/banking/gandzapah-azatowtyan-12-mch-4
+2026-04-17T22:27:42.115477+00:00 |   [8/29] saved: https://staff.am/en/jobs/banking/oskow-gnahatman-masnaget-ajapnyak-mch-4
+2026-04-17T22:27:43.508647+00:00 |   [9/29] saved: https://staff.am/en/jobs/legal/iravaban-iravakan-spasarkman-tsarhayowtyown-46
+2026-04-17T22:27:45.018663+00:00 |   [10/29] saved: https://staff.am/en/jobs/finance-management/dealer-34
+2026-04-17T22:27:45.083325+00:00 |   (streamed 10 new jobs to disk)
+2026-04-17T22:27:46.318397+00:00 |   [11/29] saved: https://staff.am/en/jobs/bookkeeping/hashvapah-3434
+2026-04-17T22:27:47.805023+00:00 |   [12/29] saved: https://staff.am/en/jobs/banking/varkayin-portfelayin-rhiskeri-karhavarman-timi-ghekavar-6
+2026-04-17T22:27:49.216342+00:00 |   [13/29] saved: https://staff.am/en/jobs/production/probat-hoskagtsi-operator-2
+2026-04-17T22:27:50.220612+00:00 |   [14/29] saved: https://staff.am/en/jobs/production/aasted-jensen-moldingayin-hoskagtsi-operator
+2026-04-17T22:27:51.366049+00:00 |   [15/29] saved: https://staff.am/en/jobs/security/internal-security-service-specialist-4
+2026-04-17T22:27:51.454076+00:00 |   (streamed 15 new jobs to disk)
+2026-04-17T22:27:52.890333+00:00 |   [16/29] saved: https://staff.am/en/jobs/it-support/it-service-desk-analyst-5
+2026-04-17T22:27:54.065908+00:00 |   [17/29] saved: https://staff.am/en/jobs/other-services/pakanagorts-48
+2026-04-17T22:27:55.279225+00:00 |   [18/29] saved: https://staff.am/en/jobs/finance-management/financial-specialist-142
+2026-04-17T22:27:56.121106+00:00 |   [19/29] saved: https://staff.am/en/jobs/marketing/reel-maker-content-creator
+2026-04-17T22:27:57.390381+00:00 |   [20/29] saved: https://staff.am/en/jobs/project-management/it-business-analyst-186
+2026-04-17T22:27:57.460133+00:00 |   (streamed 20 new jobs to disk)
+2026-04-17T22:27:58.815683+00:00 |   [21/29] saved: https://staff.am/en/jobs/marketing/junior-video-editor-3
+2026-04-17T22:27:59.920433+00:00 |   [22/29] saved: https://staff.am/en/jobs/finance-management/financial-analyst-cogs
+2026-04-17T22:28:00.982762+00:00 |   [23/29] saved: https://staff.am/en/jobs/office-work/administrative-assistant-ticket-sales-agent-7
+2026-04-17T22:28:02.064420+00:00 |   [24/29] saved: https://staff.am/en/jobs/finance-management/finance-analyst-logistics
+2026-04-17T22:28:03.082551+00:00 |   [25/29] saved: https://staff.am/en/jobs/sales-management/sales-and-service-specialist-in-stepanavan-sc
+2026-04-17T22:28:03.175658+00:00 |   (streamed 25 new jobs to disk)
+2026-04-17T22:28:04.620976+00:00 |   [26/29] saved: https://staff.am/en/jobs/office-work/administrative-assistant-1030
+2026-04-17T22:28:05.625556+00:00 |   [27/29] saved: https://staff.am/en/jobs/education-training/nvagaktsogh-akompaniator
+2026-04-17T22:28:06.621194+00:00 |   [28/29] saved: https://staff.am/en/jobs/content-writing/senior-copywriter-42
+2026-04-17T22:28:07.745591+00:00 |   [29/29] saved: https://staff.am/en/jobs/office-work/senior-program-coordinator-4
+2026-04-17T22:28:07.828990+00:00 | RUN END  new_jobs=29  total_jobs=1779
