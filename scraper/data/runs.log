@@ -3138,3 +3138,72 @@ playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at 
 2026-04-16T06:48:02.797956+00:00 |   (streamed 35 new jobs to disk)
 2026-04-16T06:48:03.658539+00:00 |   [36/36] saved: https://staff.am/en/jobs/marketing/marketingayin-haghordaktsowtyownneri-bazhni-avag-masnaget-5
 2026-04-16T06:48:03.738162+00:00 | RUN END  new_jobs=36  total_jobs=1700
+2026-04-17T08:46:57.712733+00:00 | RUN START  url=https://staff.am/en/jobs  fields=['title', 'company', 'location', 'job_type', 'employment_term', 'category', 'deadline', 'url', 'description']  keywords=[]  workers=1
+2026-04-17T08:46:58.192315+00:00 | Navigating to listing page…
+2026-04-17T08:47:04.841243+00:00 |   listing page 1: extracting cards…
+2026-04-17T08:47:04.875096+00:00 |   page 1: 50 new cards (running total 50)
+2026-04-17T08:47:06.717349+00:00 |   listing page 2: extracting cards…
+2026-04-17T08:47:06.724100+00:00 |   page 2: 0 new cards (running total 50)
+2026-04-17T08:47:06.779723+00:00 | Total cards across all pages: 50
+2026-04-17T08:47:06.779817+00:00 | New jobs to process: 50
+2026-04-17T08:47:09.557179+00:00 |   [1/50] saved: https://staff.am/en/jobs/marketing/head-of-performance-and-digital-marketing-2
+2026-04-17T08:47:10.481809+00:00 |   [2/50] saved: https://staff.am/en/jobs/sales-management/spasarkman-masnaget-50
+2026-04-17T08:47:11.388203+00:00 |   [3/50] saved: https://staff.am/en/jobs/marketing/arabic-speaking-affiliate-manager-6
+2026-04-17T08:47:12.656211+00:00 |   [4/50] saved: https://staff.am/en/jobs/education-training/owsowtsanogh-marzich-stepanavan-8
+2026-04-17T08:47:13.826974+00:00 |   [5/50] saved: https://staff.am/en/jobs/office-work/biznes-ognakan-7
+2026-04-17T08:47:13.894392+00:00 |   (streamed 5 new jobs to disk)
+2026-04-17T08:47:15.252382+00:00 |   [6/50] saved: https://staff.am/en/jobs/marketing/video-editor-127
+2026-04-17T08:47:16.115824+00:00 |   [7/50] saved: https://staff.am/en/jobs/office-work/finansakan-ew-gortsarhnakan-krtser-masnaget
+2026-04-17T08:47:17.106584+00:00 |   [8/50] saved: https://staff.am/en/jobs/marketing/video-editing-internship-program-4
+2026-04-17T08:47:18.101498+00:00 |   [9/50] saved: https://staff.am/en/jobs/other-it/1c-spasarkogh-khorhrdatow-4
+2026-04-17T08:47:19.311440+00:00 |   [10/50] saved: https://staff.am/en/jobs/sales-management/head-of-salessales-manager
+2026-04-17T08:47:19.397351+00:00 |   (streamed 10 new jobs to disk)
+2026-04-17T08:47:20.296151+00:00 |   [11/50] saved: https://staff.am/en/jobs/education-training/owsowtsanogh-marzich-mrganowsh-kes-drowyk
+2026-04-17T08:47:21.290756+00:00 |   [12/50] saved: https://staff.am/en/jobs/sales-management/zangeri-kentroni-hamakargogh-29
+2026-04-17T08:47:22.573996+00:00 |   [13/50] saved: https://staff.am/en/jobs/banking/gortsarhnavar-aparan-masnachyowgh-3
+2026-04-17T08:47:24.024292+00:00 |   [14/50] saved: https://staff.am/en/jobs/banking/gortsarhnavar-sisian-masnachyowgh-3
+2026-04-17T08:47:25.511194+00:00 |   [15/50] saved: https://staff.am/en/jobs/sales-management/showkayi-zargatsman-pataskhanatowpreseller-10
+2026-04-17T08:47:25.581423+00:00 |   (streamed 15 new jobs to disk)
+2026-04-17T08:47:26.999666+00:00 |   [16/50] saved: https://staff.am/en/jobs/banking/berd-branch-credit-officerbusiness-development-manager-14
+2026-04-17T08:47:28.354068+00:00 |   [17/50] saved: https://staff.am/en/jobs/banking/pmdz-glkhavor-varkayin-masnaget-kerewan-16
+2026-04-17T08:47:29.258701+00:00 |   [18/50] saved: https://staff.am/en/jobs/banking/pmdz-varkayin-masnaget-kerewan-12
+2026-04-17T08:47:30.158708+00:00 |   [19/50] saved: https://staff.am/en/jobs/banking/pokr-biznesi-varkayin-masnaget-kejmiatsin-48
+2026-04-17T08:47:31.521370+00:00 |   [20/50] saved: https://staff.am/en/jobs/banking/pmdz-varkayin-masnaget-kgyowmri-1
+2026-04-17T08:47:31.578139+00:00 |   (streamed 20 new jobs to disk)
+2026-04-17T08:47:32.418153+00:00 |   [21/50] saved: https://staff.am/en/jobs/banking/investigation-team-specialist-cash-management-and-investigation-division-4
+2026-04-17T08:47:33.597438+00:00 |   [22/50] saved: https://staff.am/en/jobs/software-development/senior-aws-devops-engineer-with-terraform-and-kubernetes-cloud-platform-core
+2026-04-17T08:47:34.943642+00:00 |   [23/50] saved: https://staff.am/en/jobs/banking/spasarkogh-masnagetashtarak-masnachyowgh-13
+2026-04-17T08:47:35.868747+00:00 |   [24/50] saved: https://staff.am/en/jobs/banking/prayvit-hachakhordneri-het-ashkhatanki-menejer-57
+2026-04-17T08:47:37.117704+00:00 |   [25/50] saved: https://staff.am/en/jobs/banking/prayvit-hachakhordneri-spasarkman-bazhin-spasarkogh-masnaget-16
+2026-04-17T08:47:37.177077+00:00 |   (streamed 25 new jobs to disk)
+2026-04-17T08:47:38.025270+00:00 |   [26/50] saved: https://staff.am/en/jobs/system-admin/systems-administrator-45
+2026-04-17T08:47:39.313119+00:00 |   [27/50] saved: https://staff.am/en/jobs/sales-management/vacharhki-ew-spasarkman-masnaget-kerewanowm-24
+2026-04-17T08:47:40.807152+00:00 |   [28/50] saved: https://staff.am/en/jobs/banking/pmdz-biznes-khorhrdatow-36
+2026-04-17T08:47:42.054806+00:00 |   [29/50] saved: https://staff.am/en/jobs/journalism/pr-specialist-102
+2026-04-17T08:47:42.904948+00:00 |   [30/50] saved: https://staff.am/en/jobs/importexportmerchandising/logistic-manager-68
+2026-04-17T08:47:42.985046+00:00 |   (streamed 30 new jobs to disk)
+2026-04-17T08:47:44.397516+00:00 |   [31/50] saved: https://staff.am/en/jobs/software-development/strong-mid-mid-laravel-developer-2
+2026-04-17T08:47:45.891471+00:00 |   [32/50] saved: https://staff.am/en/jobs/gaming-betting/live-khaghavar-141
+2026-04-17T08:47:46.731712+00:00 |   [33/50] saved: https://staff.am/en/jobs/web-design/mid-level-product-designer-2
+2026-04-17T08:47:47.679633+00:00 |   [34/50] saved: https://staff.am/en/jobs/procurement/varord-263
+2026-04-17T08:47:48.920192+00:00 |   [35/50] saved: https://staff.am/en/jobs/banking/artashat-branch-credit-officerbusiness-development-manager-24
+2026-04-17T08:47:48.999986+00:00 |   (streamed 35 new jobs to disk)
+2026-04-17T08:47:50.157606+00:00 |   [36/50] saved: https://staff.am/en/jobs/banking/head-of-back-office-unit-2
+2026-04-17T08:47:51.523116+00:00 |   [37/50] saved: https://staff.am/en/jobs/nonprofit/erewan-masnachyowghi-sotsialakan-ashkhatoghin-pokharinogh-7
+2026-04-17T08:47:52.599651+00:00 |   [38/50] saved: https://staff.am/en/jobs/tourism/sales-coordinator-43
+2026-04-17T08:47:53.854682+00:00 |   [39/50] saved: https://staff.am/en/jobs/tourism/receptionist-845
+2026-04-17T08:47:54.955569+00:00 |   [40/50] saved: https://staff.am/en/jobs/other-services/warehouse-worker-22
+2026-04-17T08:47:55.024751+00:00 |   (streamed 40 new jobs to disk)
+2026-04-17T08:47:56.284450+00:00 |   [41/50] saved: https://staff.am/en/jobs/software-development/netc-software-engineer-4
+2026-04-17T08:47:57.827524+00:00 |   [42/50] saved: https://staff.am/en/jobs/office-work/administrator-1063
+2026-04-17T08:47:59.258305+00:00 |   [43/50] saved: https://staff.am/en/jobs/software-development/c-software-engineer-crm
+2026-04-17T08:48:00.307218+00:00 |   [44/50] saved: https://staff.am/en/jobs/mechanical-engineering/tekhnikakan-gortsarhnowtyownneri-hamakargogh-k-kapan
+2026-04-17T08:48:01.738426+00:00 |   [45/50] saved: https://staff.am/en/jobs/sport/match-presenter
+2026-04-17T08:48:01.836455+00:00 |   (streamed 45 new jobs to disk)
+2026-04-17T08:48:02.661782+00:00 |   [46/50] saved: https://staff.am/en/jobs/marketing/marketing-manager-pierre-fabre-10
+2026-04-17T08:48:03.992394+00:00 |   [47/50] saved: https://staff.am/en/jobs/banking/card-products-digitalization-specialist-1
+2026-04-17T08:48:04.859975+00:00 |   [48/50] saved: https://staff.am/en/jobs/banking/card-technology-and-operations-specialist-1
+2026-04-17T08:48:06.134332+00:00 |   [49/50] saved: https://staff.am/en/jobs/banking/senior-project-manager-91
+2026-04-17T08:48:07.016114+00:00 |   [50/50] saved: https://staff.am/en/jobs/banking/letter-of-credit-and-bank-guarantee-senior-specialist-1
+2026-04-17T08:48:07.079444+00:00 |   (streamed 50 new jobs to disk)
+2026-04-17T08:48:07.144992+00:00 | RUN END  new_jobs=50  total_jobs=1750
