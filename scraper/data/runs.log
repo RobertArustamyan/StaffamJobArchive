@@ -3299,3 +3299,20 @@ playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at 
 2026-04-19T06:37:39.922791+00:00 |   [33/34] saved: https://staff.am/en/jobs/banking/masnachyowghi-karhavarich-erewan-7
 2026-04-19T06:37:40.880749+00:00 |   [34/34] saved: https://staff.am/en/jobs/healthcare/doctor-20
 2026-04-19T06:37:40.976560+00:00 | RUN END  new_jobs=34  total_jobs=1813
+2026-04-20T06:18:50.550608+00:00 | RUN START  url=https://staff.am/en/jobs  fields=['title', 'company', 'location', 'job_type', 'employment_term', 'category', 'deadline', 'url', 'description']  keywords=[]  workers=1
+2026-04-20T06:18:52.045026+00:00 | Navigating to listing page…
+2026-04-20T06:19:00.437753+00:00 |   listing page 1: extracting cards…
+2026-04-20T06:19:00.455949+00:00 |   page 1: 50 new cards (running total 50)
+2026-04-20T06:19:02.116817+00:00 |   listing page 2: extracting cards…
+2026-04-20T06:19:02.122011+00:00 |   page 2: 0 new cards (running total 50)
+2026-04-20T06:19:02.187001+00:00 | Total cards across all pages: 50
+2026-04-20T06:19:02.187093+00:00 | New jobs to process: 7
+2026-04-20T06:19:06.051171+00:00 |   [1/7] saved: https://staff.am/en/jobs/banking/khndraharowyts-varkeri-owghektsman-bazhni-glkhavor-masnaget-3
+2026-04-20T06:19:07.518903+00:00 |   [2/7] saved: https://staff.am/en/jobs/education-training/fransereni-dasakhos-7
+2026-04-20T06:19:08.845940+00:00 |   [3/7] saved: https://staff.am/en/jobs/finance-management/payroll-specialist-49
+2026-04-20T06:19:10.296071+00:00 |   [4/7] saved: https://staff.am/en/jobs/tourism/floor-manager-13
+2026-04-20T06:19:11.282874+00:00 |   [5/7] saved: https://staff.am/en/jobs/sales-management/menedzher-po-prodazham-so-znaniem-russkogo-yazyka
+2026-04-20T06:19:11.375307+00:00 |   (streamed 5 new jobs to disk)
+2026-04-20T06:19:12.812313+00:00 |   [6/7] saved: https://staff.am/en/jobs/gaming-betting/game-presenter-morning-shift-49
+2026-04-20T06:19:13.787440+00:00 |   [7/7] saved: https://staff.am/en/jobs/legal/lawyer-622
+2026-04-20T06:19:13.881760+00:00 | RUN END  new_jobs=7  total_jobs=1820
