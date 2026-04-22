@@ -3382,3 +3382,72 @@ playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at 
 2026-04-21T05:52:11.465243+00:00 |   [47/48] saved: https://staff.am/en/jobs/consultancy/business-analyst-450
 2026-04-21T05:52:12.717931+00:00 |   [48/48] saved: https://staff.am/en/jobs/finance-management/risk-manager-193
 2026-04-21T05:52:12.817734+00:00 | RUN END  new_jobs=48  total_jobs=1868
+2026-04-22T06:42:39.893488+00:00 | RUN START  url=https://staff.am/en/jobs  fields=['title', 'company', 'location', 'job_type', 'employment_term', 'category', 'deadline', 'url', 'description']  keywords=[]  workers=1
+2026-04-22T06:42:41.356862+00:00 | Navigating to listing page…
+2026-04-22T06:42:49.870118+00:00 |   listing page 1: extracting cards…
+2026-04-22T06:42:49.910475+00:00 |   page 1: 50 new cards (running total 50)
+2026-04-22T06:42:51.908107+00:00 |   listing page 2: extracting cards…
+2026-04-22T06:42:51.915143+00:00 |   page 2: 0 new cards (running total 50)
+2026-04-22T06:42:51.974494+00:00 | Total cards across all pages: 50
+2026-04-22T06:42:51.974585+00:00 | New jobs to process: 50
+2026-04-22T06:42:55.139953+00:00 |   [1/50] saved: https://staff.am/en/jobs/office-work/gortsavar-113
+2026-04-22T06:42:56.571140+00:00 |   [2/50] saved: https://staff.am/en/jobs/sales-management/herhakhosayin-vacharhki-masnaget-114
+2026-04-22T06:42:58.127058+00:00 |   [3/50] saved: https://staff.am/en/jobs/legal/legal-counselgeneral-counsels-staff-6
+2026-04-22T06:42:59.494248+00:00 |   [4/50] saved: https://staff.am/en/jobs/finance-management/production-financial-control-manager-3
+2026-04-22T06:43:00.792780+00:00 |   [5/50] saved: https://staff.am/en/jobs/it-support/tsantsi-karhowtsman-tekhnik-17
+2026-04-22T06:43:00.860130+00:00 |   (streamed 5 new jobs to disk)
+2026-04-22T06:43:01.907533+00:00 |   [6/50] saved: https://staff.am/en/jobs/procurement/gnowmneri-irakanatsman-ew-artahanman-sksnak-masnaget
+2026-04-22T06:43:03.207646+00:00 |   [7/50] saved: https://staff.am/en/jobs/gaming-betting/khaghatghtavar-shafler-157
+2026-04-22T06:43:04.221286+00:00 |   [8/50] saved: https://staff.am/en/jobs/banking/metodabanowtyan-varchowtyown-kazmakerpchakan-zargatsman-owghghowtyan-arhajatar-masnaget
+2026-04-22T06:43:05.804980+00:00 |   [9/50] saved: https://staff.am/en/jobs/banking/bankayin-hashivneri-teghekatvowtyan-tramadrman-bazhni-arhajatar-masnaget-2
+2026-04-22T06:43:07.126642+00:00 |   [10/50] saved: https://staff.am/en/jobs/banking/gandzapahartashat-masnachyowghowm-1300-2200-ashkhatazhamanaknerov-16
+2026-04-22T06:43:07.201454+00:00 |   (streamed 10 new jobs to disk)
+2026-04-22T06:43:08.113196+00:00 |   [11/50] saved: https://staff.am/en/jobs/banking/kajaran-masnachyowghi-karhavarich-6
+2026-04-22T06:43:09.216736+00:00 |   [12/50] saved: https://staff.am/en/jobs/other-it/technical-lead-internet-and-mobile-banking-3
+2026-04-22T06:43:10.576000+00:00 |   [13/50] saved: https://staff.am/en/jobs/other-it/senior-business-analyst-web-amp-mobile
+2026-04-22T06:43:12.133685+00:00 |   [14/50] saved: https://staff.am/en/jobs/other-it/senior-business-analyst-open-banking
+2026-04-22T06:43:13.113560+00:00 |   [15/50] saved: https://staff.am/en/jobs/banking/team-lead-integrations-and-internal-services-2
+2026-04-22T06:43:13.182061+00:00 |   (streamed 15 new jobs to disk)
+2026-04-22T06:43:14.581400+00:00 |   [16/50] saved: https://staff.am/en/jobs/bookkeeping/head-of-customer-operations-it-international-market
+2026-04-22T06:43:15.936324+00:00 |   [17/50] saved: https://staff.am/en/jobs/project-management/lead-product-manager
+2026-04-22T06:43:17.244082+00:00 |   [18/50] saved: https://staff.am/en/jobs/other-it/head-of-technical-services-hosting
+2026-04-22T06:43:18.634999+00:00 |   [19/50] saved: https://staff.am/en/jobs/sales-management/sales-manager-russian-speaking-8
+2026-04-22T06:43:19.763500+00:00 |   [20/50] saved: https://staff.am/en/jobs/software-development/founding-machine-learning-engineer-recommendations-genai
+2026-04-22T06:43:19.858556+00:00 |   (streamed 20 new jobs to disk)
+2026-04-22T06:43:20.769571+00:00 |   [21/50] saved: https://staff.am/en/jobs/software-development/founding-ai-platform-engineer-mlops-backend
+2026-04-22T06:43:22.106780+00:00 |   [22/50] saved: https://staff.am/en/jobs/software-development/senior-frontend-developer-reactangular
+2026-04-22T06:43:23.317465+00:00 |   [23/50] saved: https://staff.am/en/jobs/tourism/front-office-agent-116
+2026-04-22T06:43:24.628760+00:00 |   [24/50] saved: https://staff.am/en/jobs/marketing/marketing-specialist-1139
+2026-04-22T06:43:26.104718+00:00 |   [25/50] saved: https://staff.am/en/jobs/network/datacom-network-engineer-4
+2026-04-22T06:43:26.153757+00:00 |   (streamed 25 new jobs to disk)
+2026-04-22T06:43:27.152717+00:00 |   [26/50] saved: https://staff.am/en/jobs/software-development/middlesenior-backend-developer-go
+2026-04-22T06:43:28.739140+00:00 |   [27/50] saved: https://staff.am/en/jobs/procurement/gnowmneri-avag-masnaget-9
+2026-04-22T06:43:30.121927+00:00 |   [28/50] saved: https://staff.am/en/jobs/quality-assurance/middle-qa-engineer-64
+2026-04-22T06:43:31.045996+00:00 |   [29/50] saved: https://staff.am/en/jobs/sales-management/store-manager-249
+2026-04-22T06:43:32.407409+00:00 |   [30/50] saved: https://staff.am/en/jobs/legal/lawyer-immigration-law
+2026-04-22T06:43:32.512963+00:00 |   (streamed 30 new jobs to disk)
+2026-04-22T06:43:33.521245+00:00 |   [31/50] saved: https://staff.am/en/jobs/legal/senior-lawyer-114
+2026-04-22T06:43:34.766188+00:00 |   [32/50] saved: https://staff.am/en/jobs/sales-management/operator-418
+2026-04-22T06:43:36.041913+00:00 |   [33/50] saved: https://staff.am/en/jobs/office-work/administrative-assistant-1032
+2026-04-22T06:43:37.351449+00:00 |   [34/50] saved: https://staff.am/en/jobs/sales-management/retail-equity-department-specialist
+2026-04-22T06:43:38.870768+00:00 |   [35/50] saved: https://staff.am/en/jobs/bookkeeping/hashvapah-3441
+2026-04-22T06:43:38.945265+00:00 |   (streamed 35 new jobs to disk)
+2026-04-22T06:43:40.331187+00:00 |   [36/50] saved: https://staff.am/en/jobs/software-development/lead-data-scientist-13
+2026-04-22T06:43:41.678653+00:00 |   [37/50] saved: https://staff.am/en/jobs/data-science/lead-ai-engineer-12
+2026-04-22T06:43:43.037031+00:00 |   [38/50] saved: https://staff.am/en/jobs/data-science/llm-engineer-6
+2026-04-22T06:43:44.541553+00:00 |   [39/50] saved: https://staff.am/en/jobs/software-development/generative-ai-engineer-22
+2026-04-22T06:43:46.034292+00:00 |   [40/50] saved: https://staff.am/en/jobs/other-services/cre-operations-and-workspace-officer
+2026-04-22T06:43:46.097044+00:00 |   (streamed 40 new jobs to disk)
+2026-04-22T06:43:47.071779+00:00 |   [41/50] saved: https://staff.am/en/jobs/banking/finansakan-khorhrdatow-erewanyan-masnachyowgherowm-76
+2026-04-22T06:43:48.161156+00:00 |   [42/50] saved: https://staff.am/en/jobs/mechanical-engineering/bjjayin-kayanneri-ew-entakarhowtsvatskneri-spasarkman-inzhener-12
+2026-04-22T06:43:49.292562+00:00 |   [43/50] saved: https://staff.am/en/jobs/audit/technical-compliance-specialist-13
+2026-04-22T06:43:50.414518+00:00 |   [44/50] saved: https://staff.am/en/jobs/legal/qa-quality-assurance-junior-to-mid-level
+2026-04-22T06:43:51.735255+00:00 |   [45/50] saved: https://staff.am/en/jobs/production/varord-arhakich-548
+2026-04-22T06:43:51.794905+00:00 |   (streamed 45 new jobs to disk)
+2026-04-22T06:43:52.984361+00:00 |   [46/50] saved: https://staff.am/en/jobs/banking/senior-cashier-tumanyan-17
+2026-04-22T06:43:54.305740+00:00 |   [47/50] saved: https://staff.am/en/jobs/bookkeeping/kadrayin-hashvapah-6
+2026-04-22T06:43:55.218557+00:00 |   [48/50] saved: https://staff.am/en/jobs/it-support/tekhnikakan-ajaktsman-masnaget-258
+2026-04-22T06:43:56.262063+00:00 |   [49/50] saved: https://staff.am/en/jobs/banking/sanktsion-hamapataskhaneliowtyan-tsarhayowtyan-pataskhanatow
+2026-04-22T06:43:57.585658+00:00 |   [50/50] saved: https://staff.am/en/jobs/sales-management/hostess-55
+2026-04-22T06:43:57.646269+00:00 |   (streamed 50 new jobs to disk)
+2026-04-22T06:43:57.718505+00:00 | RUN END  new_jobs=50  total_jobs=1918
