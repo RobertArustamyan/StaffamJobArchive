@@ -3451,3 +3451,55 @@ playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at 
 2026-04-22T06:43:57.585658+00:00 |   [50/50] saved: https://staff.am/en/jobs/sales-management/hostess-55
 2026-04-22T06:43:57.646269+00:00 |   (streamed 50 new jobs to disk)
 2026-04-22T06:43:57.718505+00:00 | RUN END  new_jobs=50  total_jobs=1918
+2026-04-23T06:27:04.909149+00:00 | RUN START  url=https://staff.am/en/jobs  fields=['title', 'company', 'location', 'job_type', 'employment_term', 'category', 'deadline', 'url', 'description']  keywords=[]  workers=1
+2026-04-23T06:27:05.459260+00:00 | Navigating to listing page…
+2026-04-23T06:27:07.788607+00:00 |   listing page 1: extracting cards…
+2026-04-23T06:27:07.928021+00:00 |   page 1: 38 new cards (running total 38)
+2026-04-23T06:27:23.582738+00:00 | Total cards across all pages: 38
+2026-04-23T06:27:23.582828+00:00 | New jobs to process: 38
+2026-04-23T06:27:26.104324+00:00 |   [1/38] saved: https://staff.am/en/jobs/banking/gandzapah-artik-masnachyowghowm-1800-0100-ashkhatazhamanakov-24
+2026-04-23T06:27:27.509433+00:00 |   [2/38] saved: https://staff.am/en/jobs/banking/korporativ-prodowktneri-masnaget-34
+2026-04-23T06:27:28.733188+00:00 |   [3/38] saved: https://staff.am/en/jobs/sales-management/shelf-stocker
+2026-04-23T06:27:30.110015+00:00 |   [4/38] saved: https://staff.am/en/jobs/banking/gandzapah-martowni-masnachyowghowmtserekayin-hertapokhov-25
+2026-04-23T06:27:31.083401+00:00 |   [5/38] saved: https://staff.am/en/jobs/banking/gnowmneri-tsarhayowtyan-pordznak-9
+2026-04-23T06:27:31.177706+00:00 |   (streamed 5 new jobs to disk)
+2026-04-23T06:27:32.020184+00:00 |   [6/38] saved: https://staff.am/en/jobs/banking/hachakhordi-patshach-owsowmnasirowtyan-masnaget-12
+2026-04-23T06:27:32.920122+00:00 |   [7/38] saved: https://staff.am/en/jobs/banking/gandzapah-kapan-masnachyowghowm-1800-0100-ashkhatazhamanakov-18
+2026-04-23T06:27:34.236196+00:00 |   [8/38] saved: https://staff.am/en/jobs/software-development/senior-backend-developer-141
+2026-04-23T06:27:35.441382+00:00 |   [9/38] saved: https://staff.am/en/jobs/education-training/toefl-instructors
+2026-04-23T06:27:36.790578+00:00 |   [10/38] saved: https://staff.am/en/jobs/journalism/content-creator-english-speaking
+2026-04-23T06:27:36.879383+00:00 |   (streamed 10 new jobs to disk)
+2026-04-23T06:27:38.037346+00:00 |   [11/38] saved: https://staff.am/en/jobs/banking/gnowmneri-pataskhanatow-19
+2026-04-23T06:27:39.407642+00:00 |   [12/38] saved: https://staff.am/en/jobs/banking/varkayin-masnaget-412
+2026-04-23T06:27:40.838958+00:00 |   [13/38] saved: https://staff.am/en/jobs/mechanical-engineering/rhegional-tekhnik-k-vedi-7
+2026-04-23T06:27:42.365892+00:00 |   [14/38] saved: https://staff.am/en/jobs/security/tesahskman-masnaget-126
+2026-04-23T06:27:43.431453+00:00 |   [15/38] saved: https://staff.am/en/jobs/other-it/partnerships-manager-7
+2026-04-23T06:27:43.506456+00:00 |   (streamed 15 new jobs to disk)
+2026-04-23T06:27:44.374271+00:00 |   [16/38] saved: https://staff.am/en/jobs/banking/tvayin-aparhiki-vacharhki-masnaget-15
+2026-04-23T06:27:45.864172+00:00 |   [17/38] saved: https://staff.am/en/jobs/retail-business/stockkeeper-16
+2026-04-23T06:27:46.932386+00:00 |   [18/38] saved: https://staff.am/en/jobs/audit/junior-auditor-5
+2026-04-23T06:27:48.207491+00:00 |   [19/38] saved: https://staff.am/en/jobs/legal/iravakan-spasarkman-tsarhayowtyan-ghekavar
+2026-04-23T06:27:49.087187+00:00 |   [20/38] saved: https://staff.am/en/jobs/consultancy/tax-consultant-51
+2026-04-23T06:27:49.165817+00:00 |   (streamed 20 new jobs to disk)
+2026-04-23T06:27:50.155736+00:00 |   [21/38] saved: https://staff.am/en/jobs/project-management/project-manager-2028
+2026-04-23T06:27:51.231880+00:00 |   [22/38] saved: https://staff.am/en/jobs/office-work/founders-assistant-3
+2026-04-23T06:27:52.330484+00:00 |   [23/38] saved: https://staff.am/en/jobs/bookkeeping/hashvapah-3442
+2026-04-23T06:27:53.232018+00:00 |   [24/38] saved: https://staff.am/en/jobs/procurement/import-manager-106
+2026-04-23T06:27:54.520024+00:00 |   [25/38] saved: https://staff.am/en/jobs/education-training/3d-modeling-workshop-leader-5
+2026-04-23T06:27:54.598996+00:00 |   (streamed 25 new jobs to disk)
+2026-04-23T06:27:56.075242+00:00 |   [26/38] saved: https://staff.am/en/jobs/education-training/motion-graphics-workshop-leader-6
+2026-04-23T06:27:57.203890+00:00 |   [27/38] saved: https://staff.am/en/jobs/devops-infrastructure/senior-system-administrator-74
+2026-04-23T06:27:58.732429+00:00 |   [28/38] saved: https://staff.am/en/jobs/network/cybersecurity-specialist-red-team-21
+2026-04-23T06:28:00.021098+00:00 |   [29/38] saved: https://staff.am/en/jobs/sales-management/sales-consultant-851
+2026-04-23T06:28:01.545141+00:00 |   [30/38] saved: https://staff.am/en/jobs/office-work/spanish-speaking-assistant-34
+2026-04-23T06:28:01.622000+00:00 |   (streamed 30 new jobs to disk)
+2026-04-23T06:28:02.605674+00:00 |   [31/38] saved: https://staff.am/en/jobs/retail-business/raznorabochiy-g-echmiadzin-10
+2026-04-23T06:28:03.730455+00:00 |   [32/38] saved: https://staff.am/en/jobs/retail-business/raznorabochiy-g-echmiadzin-7
+2026-04-23T06:28:04.607754+00:00 |   [33/38] saved: https://staff.am/en/jobs/retail-business/prodaveczamestitel-direktora-g-echmiadzin-10
+2026-04-23T06:28:05.699256+00:00 |   [34/38] saved: https://staff.am/en/jobs/retail-business/prodaveczamestitel-direktora-g-echmiadzin-7
+2026-04-23T06:28:07.065394+00:00 |   [35/38] saved: https://staff.am/en/jobs/executive/masnachyowghi-ghekavar-23
+2026-04-23T06:28:07.169090+00:00 |   (streamed 35 new jobs to disk)
+2026-04-23T06:28:08.630070+00:00 |   [36/38] saved: https://staff.am/en/jobs/procurement/pahestapeti-ognakan-153
+2026-04-23T06:28:09.803219+00:00 |   [37/38] saved: https://staff.am/en/jobs/sales-management/hybrid-infrastructure-specialist-technical-solution-sales
+2026-04-23T06:28:12.936186+00:00 |   [38/38] saved: https://staff.am/en/jobs/banking/kartayin-boghokarkowmneri-ew-zeghtsararowtyownneri-kankhargelman-bazhni-masnaget-gisherayin-hertapokh-2
+2026-04-23T06:28:13.037870+00:00 | RUN END  new_jobs=38  total_jobs=1956
