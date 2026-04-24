@@ -3503,3 +3503,55 @@ playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at 
 2026-04-23T06:28:09.803219+00:00 |   [37/38] saved: https://staff.am/en/jobs/sales-management/hybrid-infrastructure-specialist-technical-solution-sales
 2026-04-23T06:28:12.936186+00:00 |   [38/38] saved: https://staff.am/en/jobs/banking/kartayin-boghokarkowmneri-ew-zeghtsararowtyownneri-kankhargelman-bazhni-masnaget-gisherayin-hertapokh-2
 2026-04-23T06:28:13.037870+00:00 | RUN END  new_jobs=38  total_jobs=1956
+2026-04-24T06:38:34.867967+00:00 | RUN START  url=https://staff.am/en/jobs  fields=['title', 'company', 'location', 'job_type', 'employment_term', 'category', 'deadline', 'url', 'description']  keywords=[]  workers=1
+2026-04-24T06:38:35.425239+00:00 | Navigating to listing page…
+2026-04-24T06:38:38.358690+00:00 |   listing page 1: extracting cards…
+2026-04-24T06:38:38.511297+00:00 |   page 1: 38 new cards (running total 38)
+2026-04-24T06:38:54.481585+00:00 | Total cards across all pages: 38
+2026-04-24T06:38:54.481685+00:00 | New jobs to process: 38
+2026-04-24T06:38:58.264251+00:00 |   [1/38] saved: https://staff.am/en/jobs/bookkeeping/avag-hashvapah-717
+2026-04-24T06:38:59.444555+00:00 |   [2/38] saved: https://staff.am/en/jobs/sales-management/call-centre-specialist-67
+2026-04-24T06:39:00.729091+00:00 |   [3/38] saved: https://staff.am/en/jobs/marketing/marketing-masnaget-5
+2026-04-24T06:39:01.751427+00:00 |   [4/38] saved: https://staff.am/en/jobs/science/test-job-do-not-apply-494
+2026-04-24T06:39:03.071169+00:00 |   [5/38] saved: https://staff.am/en/jobs/marketing/marketing-manager-639
+2026-04-24T06:39:03.178428+00:00 |   (streamed 5 new jobs to disk)
+2026-04-24T06:39:04.030012+00:00 |   [6/38] saved: https://staff.am/en/jobs/journalism/haghordaktsowtyan-masnaget-14
+2026-04-24T06:39:05.274555+00:00 |   [7/38] saved: https://staff.am/en/jobs/sales-management/sales-and-service-manager-8
+2026-04-24T06:39:06.627131+00:00 |   [8/38] saved: https://staff.am/en/jobs/web-design/senior-product-designer-209
+2026-04-24T06:39:08.153595+00:00 |   [9/38] saved: https://staff.am/en/jobs/education-training/homework-online-coordinator
+2026-04-24T06:39:09.612924+00:00 |   [10/38] saved: https://staff.am/en/jobs/office-work/logistics-dispatcher-22
+2026-04-24T06:39:09.714533+00:00 |   (streamed 10 new jobs to disk)
+2026-04-24T06:39:10.697807+00:00 |   [11/38] saved: https://staff.am/en/jobs/other-it/gortsavar-116
+2026-04-24T06:39:11.593664+00:00 |   [12/38] saved: https://staff.am/en/jobs/marketing/marketing-communications-associate-4
+2026-04-24T06:39:12.932949+00:00 |   [13/38] saved: https://staff.am/en/jobs/education-training/associate-methodologist-algebra-andor-geometry
+2026-04-24T06:39:14.323743+00:00 |   [14/38] saved: https://staff.am/en/jobs/procurement/procurement-specialist-391
+2026-04-24T06:39:15.284163+00:00 |   [15/38] saved: https://staff.am/en/jobs/sales-management/customer-data-verification-specialist-26
+2026-04-24T06:39:15.389928+00:00 |   (streamed 15 new jobs to disk)
+2026-04-24T06:39:16.150929+00:00 |   [16/38] saved: https://staff.am/en/jobs/sales-management/contact-center-specialist-gyumri-116
+2026-04-24T06:39:17.603680+00:00 |   [17/38] saved: https://staff.am/en/jobs/finance-management/senior-international-tax-specialist-6
+2026-04-24T06:39:19.117528+00:00 |   [18/38] saved: https://staff.am/en/jobs/sales-management/spasarkogh-masnagetkhorhrdatow-4
+2026-04-24T06:39:20.219478+00:00 |   [19/38] saved: https://staff.am/en/jobs/marketing/marketing-manager-638
+2026-04-24T06:39:21.125165+00:00 |   [20/38] saved: https://staff.am/en/jobs/bookkeeping/hashvapah-3445
+2026-04-24T06:39:21.216424+00:00 |   (streamed 20 new jobs to disk)
+2026-04-24T06:39:22.373198+00:00 |   [21/38] saved: https://staff.am/en/jobs/hr/hr-generalist-265
+2026-04-24T06:39:23.228451+00:00 |   [22/38] saved: https://staff.am/en/jobs/finance-management/strategy-and-planning-senior-analyst
+2026-04-24T06:39:24.621520+00:00 |   [23/38] saved: https://staff.am/en/jobs/banking/hachakhordneri-spasarkman-masnaget-vardanants-arabkir-malatia-1
+2026-04-24T06:39:25.904097+00:00 |   [24/38] saved: https://staff.am/en/jobs/sales-management/sales-manager-2105
+2026-04-24T06:39:27.231064+00:00 |   [25/38] saved: https://staff.am/en/jobs/sales-management/branch-manager-78
+2026-04-24T06:39:27.317846+00:00 |   (streamed 25 new jobs to disk)
+2026-04-24T06:39:28.453585+00:00 |   [26/38] saved: https://staff.am/en/jobs/banking/manratsakh-prodowktneri-tsarhayowtyownowm-prodowktneri-masnaget-25
+2026-04-24T06:39:29.431094+00:00 |   [27/38] saved: https://staff.am/en/jobs/sales-management/customer-support-and-sales-specialist-2
+2026-04-24T06:39:30.319436+00:00 |   [28/38] saved: https://staff.am/en/jobs/system-admin/systems-administrator-47
+2026-04-24T06:39:31.694654+00:00 |   [29/38] saved: https://staff.am/en/jobs/construction/paytagorts-kahowykagorts
+2026-04-24T06:39:32.644289+00:00 |   [30/38] saved: https://staff.am/en/jobs/banking/software-systems-administrator-lsbank-system-2
+2026-04-24T06:39:32.758470+00:00 |   (streamed 30 new jobs to disk)
+2026-04-24T06:39:33.672301+00:00 |   [31/38] saved: https://staff.am/en/jobs/business/account-manager-fmcg
+2026-04-24T06:39:34.783419+00:00 |   [32/38] saved: https://staff.am/en/jobs/banking/hachakhordneri-menejer-shengavit-masnachyowgh
+2026-04-24T06:39:35.805182+00:00 |   [33/38] saved: https://staff.am/en/jobs/sales-management/key-account-sales-and-retention-manager-7
+2026-04-24T06:39:36.738964+00:00 |   [34/38] saved: https://staff.am/en/jobs/banking/hachakhordneri-spasarkman-masnaget-baghramyan-mch-15
+2026-04-24T06:39:38.081182+00:00 |   [35/38] saved: https://staff.am/en/jobs/project-management/project-manager-2031
+2026-04-24T06:39:38.174210+00:00 |   (streamed 35 new jobs to disk)
+2026-04-24T06:39:39.600292+00:00 |   [36/38] saved: https://staff.am/en/jobs/mechanical-engineering/gps-sarkeri-ew-varheliki-tvichi-teghadrowm-avtomekenaneri-vra
+2026-04-24T06:39:40.856485+00:00 |   [37/38] saved: https://staff.am/en/jobs/software-development/midsenior-embedded-software-engineer-4
+2026-04-24T06:39:41.801026+00:00 |   [38/38] saved: https://staff.am/en/jobs/other-services/research-fellow-2
+2026-04-24T06:39:41.903951+00:00 | RUN END  new_jobs=38  total_jobs=1994
