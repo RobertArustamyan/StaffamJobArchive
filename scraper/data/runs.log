@@ -3555,3 +3555,23 @@ playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at 
 2026-04-24T06:39:40.856485+00:00 |   [37/38] saved: https://staff.am/en/jobs/software-development/midsenior-embedded-software-engineer-4
 2026-04-24T06:39:41.801026+00:00 |   [38/38] saved: https://staff.am/en/jobs/other-services/research-fellow-2
 2026-04-24T06:39:41.903951+00:00 | RUN END  new_jobs=38  total_jobs=1994
+2026-04-25T07:46:30.826821+00:00 | RUN START  url=https://staff.am/en/jobs  fields=['title', 'company', 'location', 'job_type', 'employment_term', 'category', 'deadline', 'url', 'description']  keywords=[]  workers=1
+2026-04-25T07:46:31.457494+00:00 | Navigating to listing page…
+2026-04-25T07:46:35.630911+00:00 |   listing page 1: extracting cards…
+2026-04-25T07:46:36.101067+00:00 |   page 1: 48 new cards (running total 48)
+2026-04-25T07:46:51.739192+00:00 | Total cards across all pages: 48
+2026-04-25T07:46:51.739289+00:00 | New jobs to process: 11
+2026-04-25T07:46:55.603761+00:00 |   [1/11] saved: https://staff.am/en/jobs/sales-management/spare-parts-specialist-38
+2026-04-25T07:46:56.754347+00:00 |   [2/11] saved: https://staff.am/en/jobs/office-work/lawyer-623
+2026-04-25T07:46:58.002393+00:00 |   [3/11] saved: https://staff.am/en/jobs/web-design/graphic-designer-prepress-operator-night-shift-12
+2026-04-25T07:46:59.275828+00:00 |   [4/11] saved: https://staff.am/en/jobs/bookkeeping/senior-accountant-517
+2026-04-25T07:47:00.741620+00:00 |   [5/11] saved: https://staff.am/en/jobs/tourism/tour-manager-118
+2026-04-25T07:47:00.843925+00:00 |   (streamed 5 new jobs to disk)
+2026-04-25T07:47:01.857911+00:00 |   [6/11] saved: https://staff.am/en/jobs/sales-management/inbound-lead-manager-2
+2026-04-25T07:47:03.284203+00:00 |   [7/11] saved: https://staff.am/en/jobs/healthcare/hertapokhayin-bzhishk-terapewt
+2026-04-25T07:47:04.767865+00:00 |   [8/11] saved: https://staff.am/en/jobs/healthcare/hertapokhayin-bzhishk-varakaban
+2026-04-25T07:47:06.035489+00:00 |   [9/11] saved: https://staff.am/en/jobs/marketing/marketolog-marketingayin-tim-2
+2026-04-25T07:47:07.287136+00:00 |   [10/11] saved: https://staff.am/en/jobs/civil-service/korhowptsiayi-kankhargelman-handznazhoghovi-haytararagreri-verlowtsowtyan-varchowtyan-pordzaget-34
+2026-04-25T07:47:07.382404+00:00 |   (streamed 10 new jobs to disk)
+2026-04-25T07:47:08.371766+00:00 |   [11/11] saved: https://staff.am/en/jobs/sales-management/customer-service-specialist-448
+2026-04-25T07:47:08.520371+00:00 | RUN END  new_jobs=11  total_jobs=2005
