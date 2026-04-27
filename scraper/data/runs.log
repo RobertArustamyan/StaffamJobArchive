@@ -3587,3 +3587,19 @@ playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at 
 2026-04-26T08:12:29.998162+00:00 |   [2/3] saved: https://staff.am/en/jobs/procurement/logistics-manager-184
 2026-04-26T08:12:30.986818+00:00 |   [3/3] saved: https://staff.am/en/jobs/sales-management/nakhagtsi-ghekavar-58
 2026-04-26T08:12:31.076768+00:00 | RUN END  new_jobs=3  total_jobs=2008
+2026-04-27T06:09:47.201966+00:00 | RUN START  url=https://staff.am/en/jobs  fields=['title', 'company', 'location', 'job_type', 'employment_term', 'category', 'deadline', 'url', 'description']  keywords=[]  workers=1
+2026-04-27T06:09:48.562907+00:00 | Navigating to listing page…
+2026-04-27T06:09:57.058859+00:00 |   listing page 1: extracting cards…
+2026-04-27T06:09:57.081365+00:00 |   page 1: 50 new cards (running total 50)
+2026-04-27T06:09:59.198710+00:00 |   listing page 2: extracting cards…
+2026-04-27T06:09:59.206142+00:00 |   page 2: 0 new cards (running total 50)
+2026-04-27T06:09:59.272342+00:00 | Total cards across all pages: 50
+2026-04-27T06:09:59.272435+00:00 | New jobs to process: 6
+2026-04-27T06:10:03.009995+00:00 |   [1/6] saved: https://staff.am/en/jobs/construction/technical-officer
+2026-04-27T06:10:03.967398+00:00 |   [2/6] saved: https://staff.am/en/jobs/gaming-betting/live-khaghavar-arhavotyan-hertapokh-47
+2026-04-27T06:10:05.290081+00:00 |   [3/6] saved: https://staff.am/en/jobs/banking/risk-management-division-specialist-5
+2026-04-27T06:10:06.418138+00:00 |   [4/6] saved: https://staff.am/en/jobs/marketing/video-content-creator-short-form-video-editor-4
+2026-04-27T06:10:07.736930+00:00 |   [5/6] saved: https://staff.am/en/jobs/office-work/office-coordinator-ardina-law-yerevan-office
+2026-04-27T06:10:07.820282+00:00 |   (streamed 5 new jobs to disk)
+2026-04-27T06:10:08.962022+00:00 |   [6/6] saved: https://staff.am/en/jobs/gaming-betting/game-presenter-560
+2026-04-27T06:10:09.050889+00:00 | RUN END  new_jobs=6  total_jobs=2014
