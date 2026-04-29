@@ -3672,3 +3672,72 @@ playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at 
 2026-04-28T13:50:10.215520+00:00 |   [50/50] saved: https://staff.am/en/jobs/other-it/chat-moderator-with-mixed-shiftes-armenian-english-russian-creedroomz-9
 2026-04-28T13:50:10.342051+00:00 |   (streamed 50 new jobs to disk)
 2026-04-28T13:50:10.449483+00:00 | RUN END  new_jobs=50  total_jobs=2064
+2026-04-29T14:47:29.321386+00:00 | RUN START  url=https://staff.am/en/jobs  fields=['title', 'company', 'location', 'job_type', 'employment_term', 'category', 'deadline', 'url', 'description']  keywords=[]  workers=1
+2026-04-29T14:47:29.837574+00:00 | Navigating to listing page…
+2026-04-29T14:47:36.583748+00:00 |   listing page 1: extracting cards…
+2026-04-29T14:47:36.619607+00:00 |   page 1: 50 new cards (running total 50)
+2026-04-29T14:47:38.436239+00:00 |   listing page 2: extracting cards…
+2026-04-29T14:47:38.454402+00:00 |   page 2: 0 new cards (running total 50)
+2026-04-29T14:47:38.533567+00:00 | Total cards across all pages: 50
+2026-04-29T14:47:38.533657+00:00 | New jobs to process: 50
+2026-04-29T14:47:42.612838+00:00 |   [1/50] saved: https://staff.am/en/jobs/art-design/senior-graphic-designer-vbet-46
+2026-04-29T14:47:43.774733+00:00 |   [2/50] saved: https://staff.am/en/jobs/procurement/logistics-specialist-127
+2026-04-29T14:47:44.911462+00:00 |   [3/50] saved: https://staff.am/en/jobs/it-support/call-center-operator-321
+2026-04-29T14:47:46.422677+00:00 |   [4/50] saved: https://staff.am/en/jobs/art-design/3d-designer-33
+2026-04-29T14:47:47.721844+00:00 |   [5/50] saved: https://staff.am/en/jobs/art-design/graphic-designer-1932
+2026-04-29T14:47:47.809329+00:00 |   (streamed 5 new jobs to disk)
+2026-04-29T14:47:48.899262+00:00 |   [6/50] saved: https://staff.am/en/jobs/sales-management/efes-50-waves-sales-program
+2026-04-29T14:47:49.986041+00:00 |   [7/50] saved: https://staff.am/en/jobs/office-work/proyekti-pataskhanatow
+2026-04-29T14:47:50.855373+00:00 |   [8/50] saved: https://staff.am/en/jobs/banking/nerdrowmayin-gortsarhnowtyownneri-ghekavar
+2026-04-29T14:47:52.235254+00:00 |   [9/50] saved: https://staff.am/en/jobs/marketing/senior-internal-events-btl-manager-1
+2026-04-29T14:47:53.601089+00:00 |   [10/50] saved: https://staff.am/en/jobs/production/artadrowtyan-ghekavar-47
+2026-04-29T14:47:53.708236+00:00 |   (streamed 10 new jobs to disk)
+2026-04-29T14:47:54.821745+00:00 |   [11/50] saved: https://staff.am/en/jobs/production/artahanman-masnaget-65
+2026-04-29T14:47:56.174833+00:00 |   [12/50] saved: https://staff.am/en/jobs/bookkeeping/hashvetar-1014
+2026-04-29T14:47:57.080744+00:00 |   [13/50] saved: https://staff.am/en/jobs/banking/chief-specialist-of-leasing-operationsanalyst
+2026-04-29T14:47:58.026843+00:00 |   [14/50] saved: https://staff.am/en/jobs/marketing/website-content-writer
+2026-04-29T14:47:59.319403+00:00 |   [15/50] saved: https://staff.am/en/jobs/insurance/junior-underwriter-4
+2026-04-29T14:47:59.390868+00:00 |   (streamed 15 new jobs to disk)
+2026-04-29T14:48:00.768566+00:00 |   [16/50] saved: https://staff.am/en/jobs/banking/sales-manager-of-leasing-operations
+2026-04-29T14:48:01.838155+00:00 |   [17/50] saved: https://staff.am/en/jobs/other-it/customer-support-specialist-895
+2026-04-29T14:48:02.689406+00:00 |   [18/50] saved: https://staff.am/en/jobs/sales-management/showroom-sales-consultant-b2c
+2026-04-29T14:48:03.881398+00:00 |   [19/50] saved: https://staff.am/en/jobs/education-training/teacher-assistant-preschool
+2026-04-29T14:48:05.052432+00:00 |   [20/50] saved: https://staff.am/en/jobs/sales-management/sales-manager-2109
+2026-04-29T14:48:05.137300+00:00 |   (streamed 20 new jobs to disk)
+2026-04-29T14:48:06.000501+00:00 |   [21/50] saved: https://staff.am/en/jobs/banking/terminal-products-sales-and-service-manager-2
+2026-04-29T14:48:06.925638+00:00 |   [22/50] saved: https://staff.am/en/jobs/sales-management/call-center-operator-320
+2026-04-29T14:48:08.077265+00:00 |   [23/50] saved: https://staff.am/en/jobs/legal/tender-specialist-31
+2026-04-29T14:48:09.128174+00:00 |   [24/50] saved: https://staff.am/en/jobs/banking/client-manager-104
+2026-04-29T14:48:10.651060+00:00 |   [25/50] saved: https://staff.am/en/jobs/marketing/advertisement-manager
+2026-04-29T14:48:10.731929+00:00 |   (streamed 25 new jobs to disk)
+2026-04-29T14:48:11.995183+00:00 |   [26/50] saved: https://staff.am/en/jobs/procurement/maksayin-dzewakerpowmneri-masnaget-134
+2026-04-29T14:48:13.510437+00:00 |   [27/50] saved: https://staff.am/en/jobs/marketing/junior-marketing-specialist-73
+2026-04-29T14:48:14.442208+00:00 |   [28/50] saved: https://staff.am/en/jobs/office-work/administrative-assistantreceptionist-4
+2026-04-29T14:48:15.403051+00:00 |   [29/50] saved: https://staff.am/en/jobs/hr/hr-administration-specialist-176
+2026-04-29T14:48:16.642408+00:00 |   [30/50] saved: https://staff.am/en/jobs/procurement/junior-procurement-specialist-18
+2026-04-29T14:48:16.723017+00:00 |   (streamed 30 new jobs to disk)
+2026-04-29T14:48:17.675165+00:00 |   [31/50] saved: https://staff.am/en/jobs/other-it/specialist-po-sboru-informacii-25
+2026-04-29T14:48:19.079078+00:00 |   [32/50] saved: https://staff.am/en/jobs/art-design/dizayner-174
+2026-04-29T14:48:20.173315+00:00 |   [33/50] saved: https://staff.am/en/jobs/tourism/front-desk-associate-82
+2026-04-29T14:48:21.051720+00:00 |   [34/50] saved: https://staff.am/en/jobs/education-training/mankavarzh-4
+2026-04-29T14:48:22.306572+00:00 |   [35/50] saved: https://staff.am/en/jobs/sales-management/sales-manager-2108
+2026-04-29T14:48:22.411028+00:00 |   (streamed 35 new jobs to disk)
+2026-04-29T14:48:23.748490+00:00 |   [36/50] saved: https://staff.am/en/jobs/marketing/digital-content-creator-73
+2026-04-29T14:48:24.999347+00:00 |   [37/50] saved: https://staff.am/en/jobs/sales-management/sales-team-leader-29
+2026-04-29T14:48:26.458773+00:00 |   [38/50] saved: https://staff.am/en/jobs/office-work/account-manager-607
+2026-04-29T14:48:27.977394+00:00 |   [39/50] saved: https://staff.am/en/jobs/ai/ai-automation-specialist-13
+2026-04-29T14:48:29.508811+00:00 |   [40/50] saved: https://staff.am/en/jobs/audit/internal-auditor-224
+2026-04-29T14:48:29.601296+00:00 |   (streamed 40 new jobs to disk)
+2026-04-29T14:48:30.864554+00:00 |   [41/50] saved: https://staff.am/en/jobs/audit/audit-manager-40
+2026-04-29T14:48:32.174098+00:00 |   [42/50] saved: https://staff.am/en/jobs/analytics/audit-analyst-21
+2026-04-29T14:48:33.206630+00:00 |   [43/50] saved: https://staff.am/en/jobs/marketing/digital-analytics-manager-31
+2026-04-29T14:48:34.477559+00:00 |   [44/50] saved: https://staff.am/en/jobs/project-management/strategic-projects-coordinator-9
+2026-04-29T14:48:35.516158+00:00 |   [45/50] saved: https://staff.am/en/jobs/project-management/product-line-manager-102
+2026-04-29T14:48:35.606508+00:00 |   (streamed 45 new jobs to disk)
+2026-04-29T14:48:36.577976+00:00 |   [46/50] saved: https://staff.am/en/jobs/project-management/product-marketing-manager-239
+2026-04-29T14:48:37.792635+00:00 |   [47/50] saved: https://staff.am/en/jobs/sales-management/onlayn-vacharhki-masnaget-25
+2026-04-29T14:48:38.769892+00:00 |   [48/50] saved: https://staff.am/en/jobs/procurement/logistikayi-masnaget-171
+2026-04-29T14:48:40.086650+00:00 |   [49/50] saved: https://staff.am/en/jobs/banking/gandzapah-martowni-masnachyowghowm-1300-2200-ashkhatazhamanakov-85
+2026-04-29T14:48:40.982479+00:00 |   [50/50] saved: https://staff.am/en/jobs/marketing/link-builder
+2026-04-29T14:48:41.071739+00:00 |   (streamed 50 new jobs to disk)
+2026-04-29T14:48:41.151559+00:00 | RUN END  new_jobs=50  total_jobs=2114
