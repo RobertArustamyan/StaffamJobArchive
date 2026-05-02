@@ -3811,3 +3811,26 @@ playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at 
 2026-05-01T05:47:02.915810+00:00 |   (streamed 15 new jobs to disk)
 2026-05-01T05:47:03.861005+00:00 |   [16/16] saved: https://staff.am/en/jobs/civil-service/citizens-service-coordinator-mobile-field-based-role
 2026-05-01T05:47:03.998192+00:00 | RUN END  new_jobs=16  total_jobs=2158
+2026-05-02T05:47:26.619794+00:00 | RUN START  url=https://staff.am/en/jobs  fields=['title', 'company', 'location', 'job_type', 'employment_term', 'category', 'deadline', 'url', 'description']  keywords=[]  workers=1
+2026-05-02T05:47:27.109536+00:00 | Navigating to listing page…
+2026-05-02T05:47:34.250653+00:00 |   listing page 1: extracting cards…
+2026-05-02T05:47:34.286895+00:00 |   page 1: 50 new cards (running total 50)
+2026-05-02T05:47:35.675104+00:00 |   listing page 2: extracting cards…
+2026-05-02T05:47:35.690937+00:00 |   page 2: 0 new cards (running total 50)
+2026-05-02T05:47:35.778146+00:00 | Total cards across all pages: 50
+2026-05-02T05:47:35.778240+00:00 | New jobs to process: 12
+2026-05-02T05:47:38.854583+00:00 |   [1/12] saved: https://staff.am/en/jobs/sales-management/sales-consultant-852
+2026-05-02T05:47:40.177155+00:00 |   [2/12] saved: https://staff.am/en/jobs/sales-management/b2b-sales-manager-corporate-sales-manager
+2026-05-02T05:47:41.115896+00:00 |   [3/12] saved: https://staff.am/en/jobs/gaming-betting/game-presenter-563
+2026-05-02T05:47:42.016808+00:00 |   [4/12] saved: https://staff.am/en/jobs/marketing/sinhala-speaking-affiliate-manager
+2026-05-02T05:47:43.394765+00:00 |   [5/12] saved: https://staff.am/en/jobs/marketing/filipino-speaking-affiliate-manager
+2026-05-02T05:47:43.461469+00:00 |   (streamed 5 new jobs to disk)
+2026-05-02T05:47:44.605676+00:00 |   [6/12] saved: https://staff.am/en/jobs/marketing/bengali-speaking-affiliate-manager
+2026-05-02T05:47:45.535974+00:00 |   [7/12] saved: https://staff.am/en/jobs/marketing/brand-manager-460
+2026-05-02T05:47:46.538740+00:00 |   [8/12] saved: https://staff.am/en/jobs/gaming-betting/russian-speaking-game-presenter-220
+2026-05-02T05:47:47.910688+00:00 |   [9/12] saved: https://staff.am/en/jobs/sales-management/sales-manager-2114
+2026-05-02T05:47:48.961885+00:00 |   [10/12] saved: https://staff.am/en/jobs/hr/human-resource-management-specialist-job-opening-join-our-mission
+2026-05-02T05:47:49.067808+00:00 |   (streamed 10 new jobs to disk)
+2026-05-02T05:47:50.418884+00:00 |   [11/12] saved: https://staff.am/en/jobs/hr/human-resource-management-junior-specialist-job-opening-join-our-mission
+2026-05-02T05:47:51.297543+00:00 |   [12/12] saved: https://staff.am/en/jobs/bookkeeping/hashvetar-1017
+2026-05-02T05:47:51.417771+00:00 | RUN END  new_jobs=12  total_jobs=2170
