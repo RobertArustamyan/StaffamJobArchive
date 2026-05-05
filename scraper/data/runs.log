@@ -3866,3 +3866,23 @@ Call log:
   - navigating to "https://staff.am/en/jobs", waiting until "networkidle"
 
 
+2026-05-04T05:50:12.956480+00:00 | RUN START  url=https://staff.am/en/jobs  fields=['title', 'company', 'location', 'job_type', 'employment_term', 'category', 'deadline', 'url', 'description']  keywords=[]  workers=1
+2026-05-04T05:50:13.435911+00:00 | Navigating to listing page…
+2026-05-04T05:50:16.873079+00:00 |   listing page 1: extracting cards…
+2026-05-04T05:50:16.893766+00:00 |   page 1: 50 new cards (running total 50)
+2026-05-04T05:50:32.272143+00:00 | Total cards across all pages: 50
+2026-05-04T05:50:32.272254+00:00 | New jobs to process: 11
+2026-05-04T05:50:35.667229+00:00 |   [1/11] saved: https://staff.am/en/jobs/project-management/personal-assistant-project-manager-assistant
+2026-05-04T05:50:37.107864+00:00 |   [2/11] saved: https://staff.am/en/jobs/art-design/interior-designer-90
+2026-05-04T05:50:38.424691+00:00 |   [3/11] saved: https://staff.am/en/jobs/sales-management/sales-manager-at-a-logistics-brokerage-company
+2026-05-04T05:50:39.884463+00:00 |   [4/11] saved: https://staff.am/en/jobs/marketing/marketingi-timi-ghekavar-20
+2026-05-04T05:50:40.837368+00:00 |   [5/11] saved: https://staff.am/en/jobs/sales-management/khorhrdatow-vacharhogh-379
+2026-05-04T05:50:40.919768+00:00 |   (streamed 5 new jobs to disk)
+2026-05-04T05:50:41.936138+00:00 |   [6/11] saved: https://staff.am/en/jobs/gaming-betting/russkoyazychnyy-game-presenter-121
+2026-05-04T05:50:42.777059+00:00 |   [7/11] saved: https://staff.am/en/jobs/sales-management/menedzher-po-prodazham-666
+2026-05-04T05:50:43.841859+00:00 |   [8/11] saved: https://staff.am/en/jobs/marketing/marketing-manager-641
+2026-05-04T05:50:45.282199+00:00 |   [9/11] saved: https://staff.am/en/jobs/construction/technical-specialist-house-master
+2026-05-04T05:50:46.562776+00:00 |   [10/11] saved: https://staff.am/en/jobs/business/tvayin-tnoren-7
+2026-05-04T05:50:46.642691+00:00 |   (streamed 10 new jobs to disk)
+2026-05-04T05:50:47.409169+00:00 |   [11/11] saved: https://staff.am/en/jobs/bookkeeping/avag-hashvapah-714
+2026-05-04T05:50:47.484077+00:00 | RUN END  new_jobs=11  total_jobs=2181
