@@ -3955,3 +3955,22 @@ Call log:
 2026-05-05T21:11:50.031867+00:00 |   [50/50] saved: https://staff.am/en/jobs/banking/lizingayin-gortsarhnowtyownneri-masnaget-5
 2026-05-05T21:11:50.145499+00:00 |   (streamed 50 new jobs to disk)
 2026-05-05T21:11:50.236100+00:00 | RUN END  new_jobs=50  total_jobs=2231
+2026-05-06T13:47:00.491333+00:00 | RUN START  url=https://staff.am/en/jobs  fields=['title', 'company', 'location', 'job_type', 'employment_term', 'category', 'deadline', 'url', 'description']  keywords=[]  workers=1
+2026-05-06T13:47:01.769412+00:00 | Navigating to listing page…
+2026-05-06T13:47:06.363840+00:00 |   listing page 1: extracting cards…
+2026-05-06T13:47:07.191853+00:00 |   page 1: 10 new cards (running total 10)
+2026-05-06T13:47:27.588976+00:00 | Total cards across all pages: 10
+2026-05-06T13:47:27.589131+00:00 | New jobs to process: 10
+2026-05-06T13:47:33.911888+00:00 |   [1/10] saved: https://staff.am/en/jobs/gaming-betting/live-dealer-89
+2026-05-06T13:47:35.091967+00:00 |   [2/10] saved: https://staff.am/en/jobs/sales-management/korporativ-vacharhki-menejer-126
+2026-05-06T13:47:36.515051+00:00 |   [3/10] saved: https://staff.am/en/jobs/mechanical-engineering/towyl-hosankneri-hamakargeri-nakhagtsogh
+2026-05-06T13:47:37.760625+00:00 |   [4/10] saved: https://staff.am/en/jobs/banking/ml-analyst-model-risk-and-analytics-division-3
+2026-05-06T13:47:39.313548+00:00 |   [5/10] saved: https://staff.am/en/jobs/banking/lead-specialist-at-leasing-provision-division-3
+2026-05-06T13:47:39.518320+00:00 |   (streamed 5 new jobs to disk)
+2026-05-06T13:47:40.651313+00:00 |   [6/10] saved: https://staff.am/en/jobs/legal/iravaban-936
+2026-05-06T13:47:41.771660+00:00 |   [7/10] saved: https://staff.am/en/jobs/quality-assurance/qa-team-lead-teamviewer-one-all-genders
+2026-05-06T13:47:43.165782+00:00 |   [8/10] saved: https://staff.am/en/jobs/sales-management/aparhik-vacharhki-gtsov-masnaget-210
+2026-05-06T13:47:44.015360+00:00 |   [9/10] saved: https://staff.am/en/jobs/quality-assurance/junior-qa-engineer-all-genders-4
+2026-05-06T13:47:45.125929+00:00 |   [10/10] saved: https://staff.am/en/jobs/sales-management/vacharhki-menejer-servis-kentronowm
+2026-05-06T13:47:45.274640+00:00 |   (streamed 10 new jobs to disk)
+2026-05-06T13:47:45.435096+00:00 | RUN END  new_jobs=10  total_jobs=2241
