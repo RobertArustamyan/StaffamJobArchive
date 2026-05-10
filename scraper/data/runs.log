@@ -4169,3 +4169,16 @@ Call log:
 2026-05-09T05:49:42.630487+00:00 |   [50/50] saved: https://staff.am/en/jobs/web-design/prepress-operator-graphic-designer
 2026-05-09T05:49:42.724842+00:00 |   (streamed 50 new jobs to disk)
 2026-05-09T05:49:42.819604+00:00 | RUN END  new_jobs=50  total_jobs=2381
+2026-05-10T06:41:36.229948+00:00 | RUN START  url=https://staff.am/en/jobs  fields=['title', 'company', 'location', 'job_type', 'employment_term', 'category', 'deadline', 'url', 'description']  keywords=[]  workers=1
+2026-05-10T06:41:37.768815+00:00 | Navigating to listing page…
+2026-05-10T06:41:41.466999+00:00 |   listing page 1: extracting cards…
+2026-05-10T06:41:41.494068+00:00 |   page 1: 50 new cards (running total 50)
+2026-05-10T06:41:56.895033+00:00 | Total cards across all pages: 50
+2026-05-10T06:41:56.895125+00:00 | New jobs to process: 5
+2026-05-10T06:42:00.784448+00:00 |   [1/5] saved: https://staff.am/en/jobs/education-training/gradaranavar-anglereni-krtowtyamb
+2026-05-10T06:42:01.787739+00:00 |   [2/5] saved: https://staff.am/en/jobs/education-training/ib-homeroom-facilitator
+2026-05-10T06:42:03.251054+00:00 |   [3/5] saved: https://staff.am/en/jobs/mechanical-engineering/engineer-93
+2026-05-10T06:42:04.642223+00:00 |   [4/5] saved: https://staff.am/en/jobs/business/business-development-manager-546
+2026-05-10T06:42:06.080819+00:00 |   [5/5] saved: https://staff.am/en/jobs/bookkeeping/administratorhashvetar
+2026-05-10T06:42:06.149704+00:00 |   (streamed 5 new jobs to disk)
+2026-05-10T06:42:06.231025+00:00 | RUN END  new_jobs=5  total_jobs=2386
