@@ -4182,3 +4182,16 @@ Call log:
 2026-05-10T06:42:06.080819+00:00 |   [5/5] saved: https://staff.am/en/jobs/bookkeeping/administratorhashvetar
 2026-05-10T06:42:06.149704+00:00 |   (streamed 5 new jobs to disk)
 2026-05-10T06:42:06.231025+00:00 | RUN END  new_jobs=5  total_jobs=2386
+2026-05-11T05:49:44.234718+00:00 | RUN START  url=https://staff.am/en/jobs  fields=['title', 'company', 'location', 'job_type', 'employment_term', 'category', 'deadline', 'url', 'description']  keywords=[]  workers=1
+2026-05-11T05:49:44.725682+00:00 | Navigating to listing page…
+2026-05-11T05:49:51.484378+00:00 |   listing page 1: extracting cards…
+2026-05-11T05:49:51.506798+00:00 |   page 1: 50 new cards (running total 50)
+2026-05-11T05:49:53.291304+00:00 |   listing page 2: extracting cards…
+2026-05-11T05:49:53.295612+00:00 |   page 2: 0 new cards (running total 50)
+2026-05-11T05:49:53.350057+00:00 | Total cards across all pages: 50
+2026-05-11T05:49:53.350146+00:00 | New jobs to process: 4
+2026-05-11T05:49:55.983702+00:00 |   [1/4] saved: https://staff.am/en/jobs/office-work/mardkayin-rhesowrsneri-menejer-17
+2026-05-11T05:49:56.888309+00:00 |   [2/4] saved: https://staff.am/en/jobs/tourism/sow-shef-9
+2026-05-11T05:49:57.977001+00:00 |   [3/4] saved: https://staff.am/en/jobs/marketing/graphic-designer-for-med-spa-brand
+2026-05-11T05:49:59.048562+00:00 |   [4/4] saved: https://staff.am/en/jobs/sales-management/online-services-promotion-sales-consultant
+2026-05-11T05:49:59.118390+00:00 | RUN END  new_jobs=4  total_jobs=2390
