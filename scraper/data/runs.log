@@ -4571,3 +4571,72 @@ Call log:
 2026-05-18T12:48:14.720052+00:00 |   [50/50] saved: https://staff.am/en/jobs/banking/gandzapah-aparan-masnachyowghowm-1800-0100-ashkhatazhamanakov-15
 2026-05-18T12:48:14.807344+00:00 |   (streamed 50 new jobs to disk)
 2026-05-18T12:48:14.905152+00:00 | RUN END  new_jobs=50  total_jobs=2654
+2026-05-19T10:45:50.770200+00:00 | RUN START  url=https://staff.am/en/jobs  fields=['title', 'company', 'location', 'job_type', 'employment_term', 'category', 'deadline', 'url', 'description']  keywords=[]  workers=1
+2026-05-19T10:45:51.286822+00:00 | Navigating to listing page…
+2026-05-19T10:45:58.892996+00:00 |   listing page 1: extracting cards…
+2026-05-19T10:45:58.903651+00:00 |   page 1: 50 new cards (running total 50)
+2026-05-19T10:46:00.956734+00:00 |   listing page 2: extracting cards…
+2026-05-19T10:46:00.961131+00:00 |   page 2: 0 new cards (running total 50)
+2026-05-19T10:46:01.029601+00:00 | Total cards across all pages: 50
+2026-05-19T10:46:01.029703+00:00 | New jobs to process: 50
+2026-05-19T10:46:04.323184+00:00 |   [1/50] saved: https://staff.am/en/jobs/sales-management/sales-manager-2128
+2026-05-19T10:46:05.762369+00:00 |   [2/50] saved: https://staff.am/en/jobs/bookkeeping/hashvetar-1038
+2026-05-19T10:46:06.761145+00:00 |   [3/50] saved: https://staff.am/en/jobs/banking/zangeri-kentroni-masnaget-303
+2026-05-19T10:46:08.166605+00:00 |   [4/50] saved: https://staff.am/en/jobs/sales-management/vacharhki-masnaget-642
+2026-05-19T10:46:09.074404+00:00 |   [5/50] saved: https://staff.am/en/jobs/software-development/python-ai-software-developer
+2026-05-19T10:46:09.165892+00:00 |   (streamed 5 new jobs to disk)
+2026-05-19T10:46:10.589887+00:00 |   [6/50] saved: https://staff.am/en/jobs/banking/client-manager-105
+2026-05-19T10:46:11.924908+00:00 |   [7/50] saved: https://staff.am/en/jobs/quality-assurance/middle-qa-engineermanual-imagine-live-4
+2026-05-19T10:46:13.324075+00:00 |   [8/50] saved: https://staff.am/en/jobs/other-it/cto-executive-assistant-4
+2026-05-19T10:46:14.521646+00:00 |   [9/50] saved: https://staff.am/en/jobs/tourism/venue-restaurant-manager
+2026-05-19T10:46:15.588881+00:00 |   [10/50] saved: https://staff.am/en/jobs/office-work/general-assistant-5
+2026-05-19T10:46:15.687223+00:00 |   (streamed 10 new jobs to disk)
+2026-05-19T10:46:16.533245+00:00 |   [11/50] saved: https://staff.am/en/jobs/sales-management/zangeri-spasarkman-kentroni-masnaget-127
+2026-05-19T10:46:17.465574+00:00 |   [12/50] saved: https://staff.am/en/jobs/banking/nerkin-ditarkowmneri-masnaget-65
+2026-05-19T10:46:18.419156+00:00 |   [13/50] saved: https://staff.am/en/jobs/finance-management/senior-treasury-operations-specialist
+2026-05-19T10:46:19.556180+00:00 |   [14/50] saved: https://staff.am/en/jobs/sales-management/sales-representative-188
+2026-05-19T10:46:20.697474+00:00 |   [15/50] saved: https://staff.am/en/jobs/finance-management/supervisor-actuaryfinancial-supervision-and-licensing-directorateinsurance-supervision-division
+2026-05-19T10:46:20.785474+00:00 |   (streamed 15 new jobs to disk)
+2026-05-19T10:46:21.834750+00:00 |   [16/50] saved: https://staff.am/en/jobs/sales-management/real-estate-sales-specialist-realtor
+2026-05-19T10:46:22.972956+00:00 |   [17/50] saved: https://staff.am/en/jobs/education-training/training-specialist-31
+2026-05-19T10:46:23.822677+00:00 |   [18/50] saved: https://staff.am/en/jobs/bookkeeping/accountant-2903
+2026-05-19T10:46:24.895829+00:00 |   [19/50] saved: https://staff.am/en/jobs/sales-management/call-center-operator-323
+2026-05-19T10:46:26.037896+00:00 |   [20/50] saved: https://staff.am/en/jobs/legal/avag-iravaban-48
+2026-05-19T10:46:26.134619+00:00 |   (streamed 20 new jobs to disk)
+2026-05-19T10:46:27.539323+00:00 |   [21/50] saved: https://staff.am/en/jobs/retail-business/vacharhogh-khorhrdatow-sales-consultant-3
+2026-05-19T10:46:28.984901+00:00 |   [22/50] saved: https://staff.am/en/jobs/legal/krtser-iravaban-170
+2026-05-19T10:46:30.152726+00:00 |   [23/50] saved: https://staff.am/en/jobs/procurement/mijazgayin-berhnapokhadrowmneri-bazhni-ghekavar
+2026-05-19T10:46:31.424486+00:00 |   [24/50] saved: https://staff.am/en/jobs/other-it/customer-support-specialist-romanian-language
+2026-05-19T10:46:32.436352+00:00 |   [25/50] saved: https://staff.am/en/jobs/project-management/marketing-35
+2026-05-19T10:46:32.528601+00:00 |   (streamed 25 new jobs to disk)
+2026-05-19T10:46:33.841258+00:00 |   [26/50] saved: https://staff.am/en/jobs/sales-management/vacharhki-menejer-shzp-4
+2026-05-19T10:46:35.130592+00:00 |   [27/50] saved: https://staff.am/en/jobs/bookkeeping/hashvapah-3499
+2026-05-19T10:46:36.248088+00:00 |   [28/50] saved: https://staff.am/en/jobs/banking/prayvit-hachakhordneri-het-ashkhatanki-finansakan-khorhrdatow-4
+2026-05-19T10:46:37.768177+00:00 |   [29/50] saved: https://staff.am/en/jobs/banking/prayvit-hachakhordneri-het-ashkhatanki-menejer-60
+2026-05-19T10:46:39.184569+00:00 |   [30/50] saved: https://staff.am/en/jobs/quality-assurance/quality-monitoring-specialist-25
+2026-05-19T10:46:39.271593+00:00 |   (streamed 30 new jobs to disk)
+2026-05-19T10:46:40.195708+00:00 |   [31/50] saved: https://staff.am/en/jobs/banking/prayvit-hachakhordneri-spasarkman-bazhin-spasarkogh-masnaget-19
+2026-05-19T10:46:41.108583+00:00 |   [32/50] saved: https://staff.am/en/jobs/sales-management/showkayi-zargatsman-pataskhanatowpreseller-13
+2026-05-19T10:46:42.162417+00:00 |   [33/50] saved: https://staff.am/en/jobs/it-support/veranorogman-masnaget
+2026-05-19T10:46:43.685230+00:00 |   [34/50] saved: https://staff.am/en/jobs/sales-management/manratsakh-vacharhki-khorhrdatow-52
+2026-05-19T10:46:44.806185+00:00 |   [35/50] saved: https://staff.am/en/jobs/sales-management/senior-enterprise-sales-manager-18
+2026-05-19T10:46:44.894658+00:00 |   (streamed 35 new jobs to disk)
+2026-05-19T10:46:46.138328+00:00 |   [36/50] saved: https://staff.am/en/jobs/project-management/it-project-manager-485
+2026-05-19T10:46:47.616285+00:00 |   [37/50] saved: https://staff.am/en/jobs/banking/vacharhkneri-menejer-29
+2026-05-19T10:46:48.882838+00:00 |   [38/50] saved: https://staff.am/en/jobs/mining/site-management-administrator
+2026-05-19T10:46:49.779562+00:00 |   [39/50] saved: https://staff.am/en/jobs/sales-management/finansakan-khorhrdatow-94
+2026-05-19T10:46:51.262662+00:00 |   [40/50] saved: https://staff.am/en/jobs/banking/loan-analyst-36
+2026-05-19T10:46:51.350930+00:00 |   (streamed 40 new jobs to disk)
+2026-05-19T10:46:52.804188+00:00 |   [41/50] saved: https://staff.am/en/jobs/procurement/logistiakayi-masnaget
+2026-05-19T10:46:54.347820+00:00 |   [42/50] saved: https://staff.am/en/jobs/sales-management/cashier-barista
+2026-05-19T10:46:55.830301+00:00 |   [43/50] saved: https://staff.am/en/jobs/bookkeeping/assistant-of-an-accountant-2
+2026-05-19T10:46:57.132765+00:00 |   [44/50] saved: https://staff.am/en/jobs/other-services/cusmots-broker-3
+2026-05-19T10:46:58.478890+00:00 |   [45/50] saved: https://staff.am/en/jobs/software-development/senior-angular-developer-english-speaker
+2026-05-19T10:46:58.575615+00:00 |   (streamed 45 new jobs to disk)
+2026-05-19T10:46:59.383437+00:00 |   [46/50] saved: https://staff.am/en/jobs/sales-management/visual-merchandiser-3
+2026-05-19T10:47:00.399931+00:00 |   [47/50] saved: https://staff.am/en/jobs/banking/masnachyowghi-karhavarich-ejmiatsni-masnachyowgh-15
+2026-05-19T10:47:01.371125+00:00 |   [48/50] saved: https://staff.am/en/jobs/banking/hachakhordneri-spasarkman-masnaget-arabkir-davitasheni-masnachyowgh
+2026-05-19T10:47:02.531306+00:00 |   [49/50] saved: https://staff.am/en/jobs/banking/hachakhordneri-spasarkman-masnaget-malatia-masnachyowgh-4
+2026-05-19T10:47:03.775294+00:00 |   [50/50] saved: https://staff.am/en/jobs/hospitality/event-coordinator-63
+2026-05-19T10:47:03.875335+00:00 |   (streamed 50 new jobs to disk)
+2026-05-19T10:47:03.978028+00:00 | RUN END  new_jobs=50  total_jobs=2704
