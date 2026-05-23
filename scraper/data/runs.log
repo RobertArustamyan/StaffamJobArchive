@@ -4810,3 +4810,56 @@ Call log:
 2026-05-22T07:49:29.860279+00:00 |   [50/50] saved: https://staff.am/en/jobs/analytics/junior-bidata-analyst-intern
 2026-05-22T07:49:30.031182+00:00 |   (streamed 50 new jobs to disk)
 2026-05-22T07:49:30.197644+00:00 | RUN END  new_jobs=50  total_jobs=2804
+2026-05-23T09:47:43.721969+00:00 | RUN START  url=https://staff.am/en/jobs  fields=['title', 'company', 'location', 'job_type', 'employment_term', 'category', 'deadline', 'url', 'description']  keywords=[]  workers=1
+2026-05-23T09:47:46.903401+00:00 | Navigating to listing page…
+2026-05-23T09:48:07.663101+00:00 |   listing page 1: extracting cards…
+2026-05-23T09:48:07.765324+00:00 |   page 1: 50 new cards (running total 50)
+2026-05-23T09:48:10.988601+00:00 |   listing page 2: extracting cards…
+2026-05-23T09:48:11.112810+00:00 |   page 2: 0 new cards (running total 50)
+2026-05-23T09:48:11.571715+00:00 | Total cards across all pages: 50
+2026-05-23T09:48:11.572210+00:00 | New jobs to process: 37
+2026-05-23T09:48:17.018251+00:00 |   [1/37] saved: https://staff.am/en/jobs/healthcare/clinic-nurse
+2026-05-23T09:48:18.510472+00:00 |   [2/37] saved: https://staff.am/en/jobs/healthcare/clinic-cleaner-2
+2026-05-23T09:48:19.820391+00:00 |   [3/37] saved: https://staff.am/en/jobs/gaming-betting/khaghatghtavar-shafler-160
+2026-05-23T09:48:21.206157+00:00 |   [4/37] saved: https://staff.am/en/jobs/project-management/construction-project-manager-128
+2026-05-23T09:48:22.583949+00:00 |   [5/37] saved: https://staff.am/en/jobs/tourism/hyowranotsi-menejer-18
+2026-05-23T09:48:23.007434+00:00 |   (streamed 5 new jobs to disk)
+2026-05-23T09:48:24.243062+00:00 |   [6/37] saved: https://staff.am/en/jobs/tourism/sales-specialist-711
+2026-05-23T09:48:25.489868+00:00 |   [7/37] saved: https://staff.am/en/jobs/banking/senior-specialist-business-regulation-and-advisory-center-3
+2026-05-23T09:48:26.948414+00:00 |   [8/37] saved: https://staff.am/en/jobs/project-management/project-manager-2043
+2026-05-23T09:48:28.213160+00:00 |   [9/37] saved: https://staff.am/en/jobs/finance-management/finansovyy-menedzher-27
+2026-05-23T09:48:29.683612+00:00 |   [10/37] saved: https://staff.am/en/jobs/audit/performance-audit-manager-2
+2026-05-23T09:48:30.128317+00:00 |   (streamed 10 new jobs to disk)
+2026-05-23T09:48:31.068947+00:00 |   [11/37] saved: https://staff.am/en/jobs/project-management/internal-events-btl-coordinator
+2026-05-23T09:48:32.657347+00:00 |   [12/37] saved: https://staff.am/en/jobs/audit/senior-performance-auditor
+2026-05-23T09:48:34.231646+00:00 |   [13/37] saved: https://staff.am/en/jobs/insurance/reinsurance-account-manager-data-analyst-4
+2026-05-23T09:48:35.501768+00:00 |   [14/37] saved: https://staff.am/en/jobs/tourism/cheif-pastery
+2026-05-23T09:48:36.592426+00:00 |   [15/37] saved: https://staff.am/en/jobs/education-training/training-programs-officer-22
+2026-05-23T09:48:36.962636+00:00 |   (streamed 15 new jobs to disk)
+2026-05-23T09:48:38.183142+00:00 |   [16/37] saved: https://staff.am/en/jobs/banking/korporativ-prodowktneri-masnaget-37
+2026-05-23T09:48:39.702098+00:00 |   [17/37] saved: https://staff.am/en/jobs/other-it/senior-data-analyst-risk-management-department-2
+2026-05-23T09:48:40.957350+00:00 |   [18/37] saved: https://staff.am/en/jobs/system-admin/system-administrator-625
+2026-05-23T09:48:42.547112+00:00 |   [19/37] saved: https://staff.am/en/jobs/bookkeeping/accountant-2908
+2026-05-23T09:48:44.038717+00:00 |   [20/37] saved: https://staff.am/en/jobs/banking/masnaget-gandzapah-zvartnots-odanavakayan-masnachyowgh-13
+2026-05-23T09:48:44.475129+00:00 |   (streamed 20 new jobs to disk)
+2026-05-23T09:48:45.509553+00:00 |   [21/37] saved: https://staff.am/en/jobs/banking/gortsarhnakan-rhiskeri-karhavarman-bazhni-glkhavor-masnagetqa
+2026-05-23T09:48:46.673188+00:00 |   [22/37] saved: https://staff.am/en/jobs/banking/spasarkman-pataskhanatow-hrazdan-masnachyowghowm-1
+2026-05-23T09:48:48.101986+00:00 |   [23/37] saved: https://staff.am/en/jobs/office-work/andznakan-varord-28
+2026-05-23T09:48:49.453172+00:00 |   [24/37] saved: https://staff.am/en/jobs/office-work/tekhnikakan-ajaktsman-masnaget-265
+2026-05-23T09:48:50.715241+00:00 |   [25/37] saved: https://staff.am/en/jobs/construction/shinararakan-ashkhatankneri-ghekavar-ashkhghek-prorab
+2026-05-23T09:48:51.291080+00:00 |   (streamed 25 new jobs to disk)
+2026-05-23T09:48:52.131750+00:00 |   [26/37] saved: https://staff.am/en/jobs/software-development/middle-qa-engineer-manual-6
+2026-05-23T09:48:53.657494+00:00 |   [27/37] saved: https://staff.am/en/jobs/sales-management/preseller-143
+2026-05-23T09:48:54.966155+00:00 |   [28/37] saved: https://staff.am/en/jobs/web-design/graphic-designer-1941
+2026-05-23T09:48:56.137309+00:00 |   [29/37] saved: https://staff.am/en/jobs/finance-management/financial-manager-92
+2026-05-23T09:48:57.361216+00:00 |   [30/37] saved: https://staff.am/en/jobs/bookkeeping/payroll-accountant-42
+2026-05-23T09:48:57.811590+00:00 |   (streamed 30 new jobs to disk)
+2026-05-23T09:48:58.585779+00:00 |   [31/37] saved: https://staff.am/en/jobs/devops-infrastructure/devops-engineer-1059
+2026-05-23T09:48:59.730043+00:00 |   [32/37] saved: https://staff.am/en/jobs/data-science/junior-data-analyst-34
+2026-05-23T09:49:01.135048+00:00 |   [33/37] saved: https://staff.am/en/jobs/software-development/middle-c-engineer
+2026-05-23T09:49:02.494129+00:00 |   [34/37] saved: https://staff.am/en/jobs/sales-management/hachakhordneri-spasarkman
+2026-05-23T09:49:04.175935+00:00 |   [35/37] saved: https://staff.am/en/jobs/banking/varkayin-masnaget-sksnak-martowni-ijewan-artik-kapan-goris-masnachyowgheri-hamar
+2026-05-23T09:49:04.620368+00:00 |   (streamed 35 new jobs to disk)
+2026-05-23T09:49:05.942862+00:00 |   [36/37] saved: https://staff.am/en/jobs/bookkeeping/senior-accountant-522
+2026-05-23T09:49:07.651613+00:00 |   [37/37] saved: https://staff.am/en/jobs/sales-management/call-center-operator-324
+2026-05-23T09:49:08.142292+00:00 | RUN END  new_jobs=37  total_jobs=2841
