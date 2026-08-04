@@ -13533,3 +13533,142 @@ Call log:
   - navigating to "https://staff.am/en/jobs", waiting until "networkidle"
 
 
+2026-08-04T05:47:03.818363+00:00 | RUN START  url=https://staff.am/en/jobs  fields=['title', 'company', 'location', 'job_type', 'employment_term', 'category', 'deadline', 'url', 'description']  keywords=[]  workers=1
+2026-08-04T05:47:05.048585+00:00 | Navigating to listing page…
+2026-08-04T05:47:11.964185+00:00 |   listing page 1: extracting cards…
+2026-08-04T05:47:11.989170+00:00 |   page 1: 50 new cards (running total 50)
+2026-08-04T05:47:13.954228+00:00 |   listing page 2: extracting cards…
+2026-08-04T05:47:13.966803+00:00 |   page 2: 50 new cards (running total 100)
+2026-08-04T05:47:15.318558+00:00 |   listing page 3: extracting cards…
+2026-08-04T05:47:15.325430+00:00 |   page 3: 50 new cards (running total 150)
+2026-08-04T05:47:16.852300+00:00 |   listing page 4: extracting cards…
+2026-08-04T05:47:16.861439+00:00 |   page 4: 50 new cards (running total 200)
+2026-08-04T05:47:18.643668+00:00 |   listing page 5: extracting cards…
+2026-08-04T05:47:18.654964+00:00 |   page 5: 50 new cards (running total 250)
+2026-08-04T05:47:20.658409+00:00 |   listing page 6: extracting cards…
+2026-08-04T05:47:20.676229+00:00 |   page 6: 50 new cards (running total 300)
+2026-08-04T05:47:22.160123+00:00 |   listing page 7: extracting cards…
+2026-08-04T05:47:22.170183+00:00 |   page 7: 50 new cards (running total 350)
+2026-08-04T05:47:23.891207+00:00 |   listing page 8: extracting cards…
+2026-08-04T05:47:23.901331+00:00 |   page 8: 50 new cards (running total 400)
+2026-08-04T05:47:26.106610+00:00 |   listing page 9: extracting cards…
+2026-08-04T05:47:26.115168+00:00 |   page 9: 50 new cards (running total 450)
+2026-08-04T05:47:27.855350+00:00 |   listing page 10: extracting cards…
+2026-08-04T05:47:27.863309+00:00 |   page 10: 50 new cards (running total 500)
+2026-08-04T05:47:29.952834+00:00 |   listing page 11: extracting cards…
+2026-08-04T05:47:29.962060+00:00 |   page 11: 50 new cards (running total 550)
+2026-08-04T05:47:31.814329+00:00 |   listing page 12: extracting cards…
+2026-08-04T05:47:31.824679+00:00 |   page 12: 50 new cards (running total 600)
+2026-08-04T05:47:33.666605+00:00 |   listing page 13: extracting cards…
+2026-08-04T05:47:33.675473+00:00 |   page 13: 50 new cards (running total 650)
+2026-08-04T05:47:35.798151+00:00 |   listing page 14: extracting cards…
+2026-08-04T05:47:35.807635+00:00 |   page 14: 50 new cards (running total 700)
+2026-08-04T05:47:37.839753+00:00 |   listing page 15: extracting cards…
+2026-08-04T05:47:37.849328+00:00 |   page 15: 50 new cards (running total 750)
+2026-08-04T05:47:39.693971+00:00 |   listing page 16: extracting cards…
+2026-08-04T05:47:39.703482+00:00 |   page 16: 50 new cards (running total 800)
+2026-08-04T05:47:41.387344+00:00 |   listing page 17: extracting cards…
+2026-08-04T05:47:41.396384+00:00 |   page 17: 50 new cards (running total 850)
+2026-08-04T05:47:43.429172+00:00 |   listing page 18: extracting cards…
+2026-08-04T05:47:43.438509+00:00 |   page 18: 50 new cards (running total 900)
+2026-08-04T05:47:45.205575+00:00 |   listing page 19: extracting cards…
+2026-08-04T05:47:45.213347+00:00 |   page 19: 50 new cards (running total 950)
+2026-08-04T05:47:47.281441+00:00 |   listing page 20: extracting cards…
+2026-08-04T05:47:47.295844+00:00 |   page 20: 50 new cards (running total 1000)
+2026-08-04T05:47:49.139045+00:00 |   listing page 21: extracting cards…
+2026-08-04T05:47:49.154843+00:00 |   page 21: 50 new cards (running total 1050)
+2026-08-04T05:47:50.882859+00:00 |   listing page 22: extracting cards…
+2026-08-04T05:47:50.897848+00:00 |   page 22: 50 new cards (running total 1100)
+2026-08-04T05:47:52.616602+00:00 |   listing page 23: extracting cards…
+2026-08-04T05:47:52.626690+00:00 |   page 23: 50 new cards (running total 1150)
+2026-08-04T05:47:54.576111+00:00 |   listing page 24: extracting cards…
+2026-08-04T05:47:54.583778+00:00 |   page 24: 50 new cards (running total 1200)
+2026-08-04T05:47:55.908045+00:00 |   listing page 25: extracting cards…
+2026-08-04T05:47:55.914936+00:00 |   page 25: 30 new cards (running total 1230)
+2026-08-04T05:47:56.061870+00:00 | Total cards across all pages: 1230
+2026-08-04T05:47:56.062519+00:00 | New jobs to process: 70
+2026-08-04T05:47:59.219574+00:00 |   [1/70] saved: https://staff.am/en/jobs/banking/korporativ-varkeri-verlowtsaban-61
+2026-08-04T05:48:00.915108+00:00 |   [2/70] saved: https://staff.am/en/jobs/banking/prayvit-hachakhordneri-het-ashkhatanki-menejer-64
+2026-08-04T05:48:03.080151+00:00 |   [3/70] saved: https://staff.am/en/jobs/banking/prayvit-hachakhordneri-spasarkman-bazhin-spasarkogh-masnaget-23
+2026-08-04T05:48:05.084022+00:00 |   [4/70] saved: https://staff.am/en/jobs/banking/zangeri-kentron-spasarkogh-masnaget-gisherayin-hertapokh-18
+2026-08-04T05:48:06.968372+00:00 |   [5/70] saved: https://staff.am/en/jobs/banking/gisherayin-hertapokhov-gandzapah-goris-masnachyowghowm-18
+2026-08-04T05:48:07.293114+00:00 |   (streamed 5 new jobs to disk)
+2026-08-04T05:48:08.929969+00:00 |   [6/70] saved: https://staff.am/en/jobs/banking/gandzapah-goris-masnachyowghowm-1800-0100-ashkhatazhamanakov-18
+2026-08-04T05:48:10.436933+00:00 |   [7/70] saved: https://staff.am/en/jobs/banking/gandzapah-aparan-masnachyowghowm-1300-2200-ashkhatazhamanakov-15
+2026-08-04T05:48:12.172958+00:00 |   [8/70] saved: https://staff.am/en/jobs/other-services/warehouse-worker-23
+2026-08-04T05:48:14.125546+00:00 |   [9/70] saved: https://staff.am/en/jobs/gaming-betting/russian-speaking-game-presenter-229
+2026-08-04T05:48:15.781673+00:00 |   [10/70] saved: https://staff.am/en/jobs/office-work/administrator-office-assistant
+2026-08-04T05:48:16.532354+00:00 |   (streamed 10 new jobs to disk)
+2026-08-04T05:48:18.045431+00:00 |   [11/70] saved: https://staff.am/en/jobs/art-design/lead-design-engineer
+2026-08-04T05:48:20.024926+00:00 |   [12/70] saved: https://staff.am/en/jobs/sales-management/customer-service-specialist-us-market-4
+2026-08-04T05:48:21.544420+00:00 |   [13/70] saved: https://staff.am/en/jobs/office-work/scheduling-associate-evening-to-late-night-shift
+2026-08-04T05:48:23.321848+00:00 |   [14/70] saved: https://staff.am/en/jobs/marketing/smm-and-content-specialist-15
+2026-08-04T05:48:25.058486+00:00 |   [15/70] saved: https://staff.am/en/jobs/banking/loan-officer-196
+2026-08-04T05:48:25.793614+00:00 |   (streamed 15 new jobs to disk)
+2026-08-04T05:48:26.741776+00:00 |   [16/70] saved: https://staff.am/en/jobs/banking/varkayin-portfelayin-rhiskeri-karhavarman-timi-ghekavar-18
+2026-08-04T05:48:28.649906+00:00 |   [17/70] saved: https://staff.am/en/jobs/sales-management/khorhrdatow-vacharhogh-416
+2026-08-04T05:48:30.051875+00:00 |   [18/70] saved: https://staff.am/en/jobs/banking/kontaktayin-kentroni-hachakhordneri-spasarkman-masnagettserekayin-hertapokhov-133
+2026-08-04T05:48:32.086202+00:00 |   [19/70] saved: https://staff.am/en/jobs/banking/kontaktayin-kentroni-hachakhordneri-spasarkman-masnageterekoyan-hertapokhov-97
+2026-08-04T05:48:33.881408+00:00 |   [20/70] saved: https://staff.am/en/jobs/banking/gandzapah-abovyan-masnachyowghowm-0900-1800-ashkhatazhamanakov-25
+2026-08-04T05:48:34.372240+00:00 |   (streamed 20 new jobs to disk)
+2026-08-04T05:48:36.059725+00:00 |   [21/70] saved: https://staff.am/en/jobs/network/cybersecurity-amp-information-security-specialist
+2026-08-04T05:48:37.780232+00:00 |   [22/70] saved: https://staff.am/en/jobs/production/patetavorman-teghamasi-ghekavar
+2026-08-04T05:48:39.645537+00:00 |   [23/70] saved: https://staff.am/en/jobs/banking/finansakan-khorhrdatow-eghvard-masnachyowgh-3
+2026-08-04T05:48:41.130066+00:00 |   [24/70] saved: https://staff.am/en/jobs/marketing/marketing-manager-pierre-fabre-12
+2026-08-04T05:48:43.004805+00:00 |   [25/70] saved: https://staff.am/en/jobs/sales-management/seller-consultant-dilijan-5
+2026-08-04T05:48:44.051815+00:00 |   (streamed 25 new jobs to disk)
+2026-08-04T05:48:44.932894+00:00 |   [26/70] saved: https://staff.am/en/jobs/other-it/casino-communications-specialist-13
+2026-08-04T05:48:46.406793+00:00 |   [27/70] saved: https://staff.am/en/jobs/education-training/learning-technical-coordinator
+2026-08-04T05:48:48.399966+00:00 |   [28/70] saved: https://staff.am/en/jobs/software-development/head-of-people-analytics-15
+2026-08-04T05:48:49.885470+00:00 |   [29/70] saved: https://staff.am/en/jobs/bookkeeping/hashvetar-operator-295
+2026-08-04T05:48:51.393363+00:00 |   [30/70] saved: https://staff.am/en/jobs/banking/kontaktayin-kentroni-masnaget-250
+2026-08-04T05:48:52.089446+00:00 |   (streamed 30 new jobs to disk)
+2026-08-04T05:48:53.361365+00:00 |   [31/70] saved: https://staff.am/en/jobs/software-development/java-engineer-intern
+2026-08-04T05:48:55.226706+00:00 |   [32/70] saved: https://staff.am/en/jobs/sales-management/aparhik-vacharhki-gtsov-masnaget-216
+2026-08-04T05:48:56.997907+00:00 |   [33/70] saved: https://staff.am/en/jobs/hr/junior-hr-specialist-35
+2026-08-04T05:48:59.139211+00:00 |   [34/70] saved: https://staff.am/en/jobs/marketing/brand-manager-482
+2026-08-04T05:49:01.165902+00:00 |   [35/70] saved: https://staff.am/en/jobs/ai/ai-sales-specialist-1
+2026-08-04T05:49:01.676298+00:00 |   (streamed 35 new jobs to disk)
+2026-08-04T05:49:02.832249+00:00 |   [36/70] saved: https://staff.am/en/jobs/software-development/senior-netc-software-engineer-15
+2026-08-04T05:49:04.249489+00:00 |   [37/70] saved: https://staff.am/en/jobs/ai/ai-solutions-engineer-pre-sales-1
+2026-08-04T05:49:06.105905+00:00 |   [38/70] saved: https://staff.am/en/jobs/insurance/head-of-internal-audit-35
+2026-08-04T05:49:07.739756+00:00 |   [39/70] saved: https://staff.am/en/jobs/ai/head-of-ai-gtm-1
+2026-08-04T05:49:09.725183+00:00 |   [40/70] saved: https://staff.am/en/jobs/tourism/manager-at-saretsi-restaurant-3
+2026-08-04T05:49:10.502841+00:00 |   (streamed 40 new jobs to disk)
+2026-08-04T05:49:11.621654+00:00 |   [41/70] saved: https://staff.am/en/jobs/office-work/technical-department-administrative-assistant-16
+2026-08-04T05:49:13.305297+00:00 |   [42/70] saved: https://staff.am/en/jobs/sales-management/vacharhki-masnaget-701
+2026-08-04T05:49:15.345498+00:00 |   [43/70] saved: https://staff.am/en/jobs/office-work/makrowhi-grasenyaki-ognakan-dilijan-nerkayatsowtschowtyownowm
+2026-08-04T05:49:17.379360+00:00 |   [44/70] saved: https://staff.am/en/jobs/banking/masnachyowghi-karhavarich-artashat-masnachyowgh
+2026-08-04T05:49:19.050754+00:00 |   [45/70] saved: https://staff.am/en/jobs/sales-management/customer-call-center-agent-83
+2026-08-04T05:49:19.687385+00:00 |   (streamed 45 new jobs to disk)
+2026-08-04T05:49:20.634249+00:00 |   [46/70] saved: https://staff.am/en/jobs/sales-management/khorhrdatow-vacharhoghowhi-281
+2026-08-04T05:49:22.685330+00:00 |   [47/70] saved: https://staff.am/en/jobs/finance-management/financial-accountant-20
+2026-08-04T05:49:24.887778+00:00 |   [48/70] saved: https://staff.am/en/jobs/tourism/tour-manager-127
+2026-08-04T05:49:26.838232+00:00 |   [49/70] saved: https://staff.am/en/jobs/tourism/housekeeping-manager-53
+2026-08-04T05:49:28.801830+00:00 |   [50/70] saved: https://staff.am/en/jobs/system-admin/it-security-systems-administrator-1
+2026-08-04T05:49:29.354896+00:00 |   (streamed 50 new jobs to disk)
+2026-08-04T05:49:30.572130+00:00 |   [51/70] saved: https://staff.am/en/jobs/office-work/office-manager-903
+2026-08-04T05:49:32.339208+00:00 |   [52/70] saved: https://staff.am/en/jobs/web-design/ui-developer-105
+2026-08-04T05:49:34.044251+00:00 |   [53/70] saved: https://staff.am/en/jobs/bookkeeping/accountant-2980
+2026-08-04T05:49:35.843778+00:00 |   [54/70] saved: https://staff.am/en/jobs/sales-management/call-center-agent-139
+2026-08-04T05:49:38.026558+00:00 |   [55/70] saved: https://staff.am/en/jobs/sales-management/operator-call-centra-178
+2026-08-04T05:49:38.820046+00:00 |   (streamed 55 new jobs to disk)
+2026-08-04T05:49:39.736646+00:00 |   [56/70] saved: https://staff.am/en/jobs/foreign-language/computer-teacher
+2026-08-04T05:49:41.902856+00:00 |   [57/70] saved: https://staff.am/en/jobs/banking/arhewtrayin-finansavorowmneri-monitoringi-arhajatar-verlowtsaban-varkeri-monitoringi-bazhin-7
+2026-08-04T05:49:43.433665+00:00 |   [58/70] saved: https://staff.am/en/jobs/other-it/crm-retention-specialist
+2026-08-04T05:49:45.512875+00:00 |   [59/70] saved: https://staff.am/en/jobs/sales-management/incident-manager-49
+2026-08-04T05:49:47.335692+00:00 |   [60/70] saved: https://staff.am/en/jobs/education-training/school-nurse-5
+2026-08-04T05:49:47.967901+00:00 |   (streamed 60 new jobs to disk)
+2026-08-04T05:49:48.848339+00:00 |   [61/70] saved: https://staff.am/en/jobs/office-work/tnoreni-teghakali-varord-4
+2026-08-04T05:49:50.454835+00:00 |   [62/70] saved: https://staff.am/en/jobs/other-it/komertsion-tnoren-56
+2026-08-04T05:49:52.311676+00:00 |   [63/70] saved: https://staff.am/en/jobs/importexportmerchandising/import-and-export-specialist
+2026-08-04T05:49:53.834679+00:00 |   [64/70] saved: https://staff.am/en/jobs/art-design/live-khaghavar-erekoyan-hertapokh-4
+2026-08-04T05:49:55.381890+00:00 |   [65/70] saved: https://staff.am/en/jobs/journalism/tvayin-haghordaktsowtyan-hamakargogh
+2026-08-04T05:49:56.300770+00:00 |   (streamed 65 new jobs to disk)
+2026-08-04T05:49:57.610437+00:00 |   [66/70] saved: https://staff.am/en/jobs/tourism/gandzapah-295
+2026-08-04T05:49:59.736006+00:00 |   [67/70] saved: https://staff.am/en/jobs/tourism/hyowrenkal-129
+2026-08-04T05:50:01.446836+00:00 |   [68/70] saved: https://staff.am/en/jobs/retail-business/pahesti-ashkhatakits-96
+2026-08-04T05:50:03.564706+00:00 |   [69/70] saved: https://staff.am/en/jobs/sales-management/sales-manager-at-keygo
+2026-08-04T05:50:05.548038+00:00 |   [70/70] saved: https://staff.am/en/jobs/banking/pokhantsowmneri-ew-vcharahashvarkayin-gortsarhnowtyownneri-glkhavor-masnagetswift-pokhantsowmner
+2026-08-04T05:50:06.230070+00:00 |   (streamed 70 new jobs to disk)
+2026-08-04T05:50:06.874857+00:00 | RUN END  new_jobs=70  total_jobs=6903
