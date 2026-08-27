@@ -16154,3 +16154,43 @@ Call log:
 2026-08-26T05:51:48.707984+00:00 |   (streamed 70 new jobs to disk)
 2026-08-26T05:51:49.315352+00:00 |   [71/71] saved: https://staff.am/en/jobs/banking/problem-asset-management-senior-specialist
 2026-08-26T05:51:49.946478+00:00 | RUN END  new_jobs=71  total_jobs=7973
+2026-08-27T05:48:48.615017+00:00 | RUN START  url=https://staff.am/en/jobs  fields=['title', 'company', 'location', 'job_type', 'employment_term', 'category', 'deadline', 'url', 'description']  keywords=[]  workers=1
+2026-08-27T05:48:51.672256+00:00 | Navigating to listing page…
+2026-08-27T05:48:55.963540+00:00 |   listing page 1: extracting cards…
+2026-08-27T05:48:56.743601+00:00 |   page 1: 28 new cards (running total 28)
+2026-08-27T05:49:15.335157+00:00 | Total cards across all pages: 28
+2026-08-27T05:49:15.335411+00:00 | New jobs to process: 28
+2026-08-27T05:49:21.011303+00:00 |   [1/28] saved: https://staff.am/en/jobs/bookkeeping/hashvapah-3667
+2026-08-27T05:49:23.460684+00:00 |   [2/28] saved: https://staff.am/en/jobs/tourism/chief-assistant-2
+2026-08-27T05:49:25.324867+00:00 |   [3/28] saved: https://staff.am/en/jobs/tourism/assistant-to-the-hotel-general-manager
+2026-08-27T05:49:27.646495+00:00 |   [4/28] saved: https://staff.am/en/jobs/tourism/waiter-breakfast-lunch-shift
+2026-08-27T05:49:29.378126+00:00 |   [5/28] saved: https://staff.am/en/jobs/banking/oskerich-gnahatogh-k-erewan-15
+2026-08-27T05:49:30.475699+00:00 |   (streamed 5 new jobs to disk)
+2026-08-27T05:49:32.080345+00:00 |   [6/28] saved: https://staff.am/en/jobs/sales-management/account-manager-of-carrier-sales-4
+2026-08-27T05:49:34.004875+00:00 |   [7/28] saved: https://staff.am/en/jobs/engineering/oazis-computer-llc-is-looking-for-an-experienced-and-responsible-service-manager-to-join-its-team
+2026-08-27T05:49:35.826455+00:00 |   [8/28] saved: https://staff.am/en/jobs/education-training/filmmaking-workshop-leader-in-kapan-15
+2026-08-27T05:49:38.595241+00:00 |   [9/28] saved: https://staff.am/en/jobs/education-training/junior-animation-workshop-leader-in-kapan-15
+2026-08-27T05:49:40.998009+00:00 |   [10/28] saved: https://staff.am/en/jobs/education-training/owsowtsanogh-marzich-spitak-kes-drowyk-1
+2026-08-27T05:49:42.325587+00:00 |   (streamed 10 new jobs to disk)
+2026-08-27T05:49:43.431047+00:00 |   [11/28] saved: https://staff.am/en/jobs/education-training/owsowtsanogh-marzich-sewan-kes-drowyk-13
+2026-08-27T05:49:45.841148+00:00 |   [12/28] saved: https://staff.am/en/jobs/office-work/oazis-computer-llc-is-looking-for-an-office-manager-2
+2026-08-27T05:49:48.214892+00:00 |   [13/28] saved: https://staff.am/en/jobs/software-development/full-stack-engineer-56
+2026-08-27T05:49:50.083001+00:00 |   [14/28] saved: https://staff.am/en/jobs/other-it/smm-masnaget-610
+2026-08-27T05:49:52.370041+00:00 |   [15/28] saved: https://staff.am/en/jobs/sales-management/business-development-executive-211
+2026-08-27T05:49:53.790217+00:00 |   (streamed 15 new jobs to disk)
+2026-08-27T05:49:55.033842+00:00 |   [16/28] saved: https://staff.am/en/jobs/finance-management/financial-specialist-159
+2026-08-27T05:49:56.729208+00:00 |   [17/28] saved: https://staff.am/en/jobs/hr/mrhk-masnaget-221
+2026-08-27T05:49:59.200302+00:00 |   [18/28] saved: https://staff.am/en/jobs/legal/head-of-legal-corporate-commercial-ip
+2026-08-27T05:50:01.744784+00:00 |   [19/28] saved: https://staff.am/en/jobs/banking/kontaktayin-kentroni-hachakhordneri-spasarkman-masnageterekoyan-hertapokhov-100
+2026-08-27T05:50:03.514002+00:00 |   [20/28] saved: https://staff.am/en/jobs/banking/kontaktayin-kentroni-hachakhordneri-spasarkman-masnagettserekayin-hertapokhov-136
+2026-08-27T05:50:05.092849+00:00 |   (streamed 20 new jobs to disk)
+2026-08-27T05:50:05.292818+00:00 |   [21/28] saved: https://staff.am/en/jobs/finance-management/head-of-the-digital-crypto-assets-department
+2026-08-27T05:50:07.383781+00:00 |   [22/28] saved: https://staff.am/en/jobs/legal/lawyer-638
+2026-08-27T05:50:09.244376+00:00 |   [23/28] saved: https://staff.am/en/jobs/banking/teghekatow-srahi-adminstrator-karmavir-abovyan
+2026-08-27T05:50:11.005846+00:00 |   [24/28] saved: https://staff.am/en/jobs/tourism/production-manager-semi-finished-food-products
+2026-08-27T05:50:13.648513+00:00 |   [25/28] saved: https://staff.am/en/jobs/sales-management/merchandiser-99
+2026-08-27T05:50:15.057855+00:00 |   (streamed 25 new jobs to disk)
+2026-08-27T05:50:16.237927+00:00 |   [26/28] saved: https://staff.am/en/jobs/banking/teghekatow-srahi-adminstrator-k-erewan
+2026-08-27T05:50:18.511803+00:00 |   [27/28] saved: https://staff.am/en/jobs/sales-management/automotive-service-advisor
+2026-08-27T05:50:21.037144+00:00 |   [28/28] saved: https://staff.am/en/jobs/banking/bankomatneri-ew-terminalneri-spasarkman-masnaget-5
+2026-08-27T05:50:22.137897+00:00 | RUN END  new_jobs=28  total_jobs=8001
