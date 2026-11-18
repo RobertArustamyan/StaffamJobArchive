@@ -21752,3 +21752,10 @@ Call log:
 2026-11-17T06:45:59.843790+00:00 | Total cards across all pages: 0
 2026-11-17T06:45:59.843867+00:00 | New jobs to process: 0
 2026-11-17T06:46:00.184238+00:00 | RUN END  new_jobs=0  total_jobs=11728
+2026-11-18T06:48:36.006633+00:00 | RUN START  url=https://staff.am/en/jobs  fields=['title', 'company', 'location', 'job_type', 'employment_term', 'category', 'deadline', 'url', 'description']  keywords=[]  workers=1
+2026-11-18T06:48:36.770582+00:00 | Navigating to listing page…
+2026-11-18T06:48:39.346097+00:00 |   listing page 1: extracting cards…
+2026-11-18T06:48:39.365510+00:00 |   page 1: 0 new cards (running total 0)
+2026-11-18T06:48:39.455260+00:00 | Total cards across all pages: 0
+2026-11-18T06:48:39.455335+00:00 | New jobs to process: 0
+2026-11-18T06:48:39.807884+00:00 | RUN END  new_jobs=0  total_jobs=11728
