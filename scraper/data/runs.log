@@ -21766,3 +21766,10 @@ Call log:
 2026-11-19T06:45:17.972327+00:00 | Total cards across all pages: 0
 2026-11-19T06:45:17.972416+00:00 | New jobs to process: 0
 2026-11-19T06:45:18.324182+00:00 | RUN END  new_jobs=0  total_jobs=11728
+2026-11-20T06:49:05.985040+00:00 | RUN START  url=https://staff.am/en/jobs  fields=['title', 'company', 'location', 'job_type', 'employment_term', 'category', 'deadline', 'url', 'description']  keywords=[]  workers=1
+2026-11-20T06:49:06.735432+00:00 | Navigating to listing page…
+2026-11-20T06:49:09.394474+00:00 |   listing page 1: extracting cards…
+2026-11-20T06:49:09.409626+00:00 |   page 1: 0 new cards (running total 0)
+2026-11-20T06:49:09.502818+00:00 | Total cards across all pages: 0
+2026-11-20T06:49:09.502894+00:00 | New jobs to process: 0
+2026-11-20T06:49:09.849230+00:00 | RUN END  new_jobs=0  total_jobs=11728
